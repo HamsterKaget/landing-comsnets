@@ -1,15 +1,7 @@
 import React, { useState } from "react";
 import { BsMoonStarsFill, BsSun } from "react-icons/bs";
-import { RiCloseFill } from "react-icons/ri";
 
 const TooglerMode = () => {
-    let navigation = [
-        { name: "Home", to: "/" },
-        { name: "Event", to: "#" },
-        { name: "Activity", to: "#" },
-        { name: "Contact", to: "#" },
-    ];
-    // const [open, setOpen] = useState(false);
     const [nightMode, setNightMode] = useState(false);
 
     function changeMode() {

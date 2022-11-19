@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const countdown = () => {
     console.log("ada");
@@ -38,7 +38,7 @@ const Countdown = () => {
                         <div className="py-4 flex">
                             <div className="w-3/12 flex font-[Orbitron]">
                                 <p className="text-2xl mx-auto text-black dark:text-white">
-                                    <span id="days" className="block">
+                                    <span id="days" className="block tracking-widest">
                                         00
                                     </span>
                                     <span className="hidden md:block text-xl lg:text-2xl">Days</span>
@@ -51,7 +51,7 @@ const Countdown = () => {
 
                             <div className="w-3/12 font-[Orbitron] ">
                                 <p className="text-2xl mx-auto text-black dark:text-white">
-                                    <span id="hours" className="block">
+                                    <span id="hours" className="block tracking-widest">
                                         00
                                     </span>
                                     <span className="hidden md:block text-xl lg:text-2xl">Hours</span>
@@ -64,7 +64,7 @@ const Countdown = () => {
 
                             <div className="w-3/12 font-[Orbitron] ">
                                 <p className="text-2xl mx-auto text-black dark:text-white">
-                                    <span id="minutes" className="block">
+                                    <span id="minutes" className="block tracking-widest">
                                         00
                                     </span>
                                     <span className="hidden md:block text-xl lg:text-2xl">Minutes</span>
@@ -77,7 +77,7 @@ const Countdown = () => {
 
                             <div className="w-3/12 font-[Orbitron] ">
                                 <p className="text-2xl mx-auto text-black dark:text-white">
-                                    <span id="seconds" className="block">
+                                    <span id="seconds" className="block tracking-widest">
                                         00
                                     </span>
                                     <span className="hidden md:block text-xl lg:text-2xl">Seconds</span>

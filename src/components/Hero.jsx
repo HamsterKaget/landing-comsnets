@@ -11,10 +11,10 @@ const Hero = () => {
                         tempora rem.
                     </p>
                     <div className="flex flex-col md:flex-row justify-center item-center text-xl">
-                        <a href="#" className="py-2 px-6 bg-indigo-600 text-white rounded-md m-2">
+                        <a href="/" className="py-2 px-6 bg-indigo-600 text-white rounded-md m-2">
                             Explore
                         </a>
-                        <a href="#" className="py-2 px-6 border border-white text-white rounded-md m-2 ">
+                        <a href="/" className="py-2 px-6 border border-white text-white rounded-md m-2 ">
                             Get Started
                         </a>
                     </div>

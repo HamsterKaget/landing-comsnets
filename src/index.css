@@ -39,3 +39,10 @@ code {
     background-color: rgba(0, 0, 0, 0.6);
     z-index: -1;
 }
+
+.col-img {
+    background-image: url("../public/image/vector-bali1.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
