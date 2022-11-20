@@ -1,6 +1,6 @@
 import React from "react";
 import { BsCheck } from "react-icons/bs";
-import { pricing } from "./data/data";
+import { pricing } from "../../data/data";
 
 const Package = () => {
     return (

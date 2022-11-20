@@ -1,6 +1,6 @@
 import React from "react";
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { speakers } from "./data/data";
+import { speakers } from "../../data/data";
 // import Person1 from "../../public/image/person1.jpg";
 
 const Speaker = () => {
@@ -36,7 +36,7 @@ const Speaker = () => {
                                             </a>
                                         </div>
 
-                                        <div className="name-proffesion flex flex-col items-center mt-2 mx-1">
+                                        <div className="name-proffesion text-center flex flex-col items-center mt-2 mx-1">
                                             <span className="text-xl font-bold dark:text-white">{speaker.name}</span>
                                             <span className="text-base opacity-70 uppercase italic font-bold text-slate-600 dark:text-slate-100">{speaker.job}</span>
                                             <span className="mt-1 text-slate-600 dark:text-slate-100">{speaker.description}</span>

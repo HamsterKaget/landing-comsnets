@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { footer, subFooter } from "./data/data";
+import { footer, subFooter } from "../../data/data";
 import { FaInstagram, FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {

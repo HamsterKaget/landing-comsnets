@@ -1,5 +1,5 @@
 import React from "react";
-import { blogs } from "./data/data";
+import { blogs } from "../../data/data";
 
 const Blog = () => {
     return (

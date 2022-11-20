@@ -1,6 +1,6 @@
 import React from "react";
 import { BsChatLeftText } from "react-icons/bs";
-import { activities } from "./data/data";
+import { activities } from "../../data/data";
 
 const Activity = () => {
     return (

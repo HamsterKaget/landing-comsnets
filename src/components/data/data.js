@@ -1,8 +1,9 @@
 export const navigation = [
     { name: "Home", to: "/" },
-    { name: "Event", to: "#" },
-    { name: "Activity", to: "#" },
-    { name: "Contact", to: "#" },
+    // { name: "Event", to: "#eventDetail" },
+    // { name: "Pricing", to: "/home#pricing" },
+    { name: "Become Our Sponsor", to: "/soon" },
+    { name: "Soon", to: "/soon" },
 ];
 
 export const activities = [

@@ -1,5 +1,5 @@
 import React from "react";
-import { sponsors } from "./data/data";
+import { sponsors } from "../../data/data";
 import { FaInstagram, FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 
@@ -32,7 +32,7 @@ const Sponsor = () => {
                         <div className="mt-20 w-[95%] mx-auto grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-12 gap-16">
                             {sponsors.map((sponsor) =>
                                 sponsor.gold.map((item) => (
-                                    <div className="relative bg-white dark:bg-slate-700 shadow-card flex flex-col justify-center items-center rounded-xl p-4 h-auto">
+                                    <div className="relative bg-white dark:bg-slate-700 shadow-card flex flex-col justify-center items-center rounded-xl p-4 h-auto text-center">
                                         <div className=" absolute top-0 -translate-y-1/2 bg-white rounded-full dark:bg-slate-600 border border-slate-200 dark:border-indigo-600">
                                             <img src={item.logo} alt={item.name} className="w-24 h-24" />
                                         </div>

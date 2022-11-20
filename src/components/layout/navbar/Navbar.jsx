@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Button from "./Button";
 import { TbMenu2 } from "react-icons/tb";
 import { RiCloseFill } from "react-icons/ri";
-import { navigation } from "./data/data";
+import { navigation } from "../../data/data";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -30,9 +31,11 @@ const Navbar = () => {
                     >
                         {navigation.map(function (nav) {
                             return (
-                                <li key={nav.name} className="px-4 py-2 my-2 mx-2 first:mt-4 lg:first:mt-2 hover:bg-indigo-600 hover:text-white duration-300 rounded">
-                                    <a href={nav.to}>{nav.name}</a>
-                                </li>
+                                <Link to={nav.to}>
+                                    <li key={nav.name} className="px-4 py-2 my-2 mx-2 first:mt-4 lg:first:mt-2 hover:bg-indigo-600 hover:text-white duration-300 rounded">
+                                        {nav.name}
+                                    </li>
+                                </Link>
                             );
                         })}
                         <Button>Download Broshure</Button>

@@ -32,7 +32,7 @@ const Countdown = () => {
     return (
         <>
             <section id="countdown">
-                <div className="h-auto bg-transparent w-10/12 md:w-8/12 -mt-12 mx-auto">
+                <div className="h-auto bg-transparent text-center w-10/12 md:w-8/12 -mt-12 mx-auto">
                     <div className="w-10/12 md:w-8/12 bg-white dark:bg-slate-800 border-b-8 border-indigo-500 rounded-lg z-10 absolute shadow-card2">
                         <div className="py-4 flex">
                             <div className="w-3/12 flex font-[Orbitron]">
