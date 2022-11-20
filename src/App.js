@@ -7,10 +7,15 @@ import IntroEvent from "./components/IntroEvent";
 import Activity from "./components/Activity";
 import EventDetail from "./components/EventDetail";
 import Speaker from "./components/Speaker";
+import Package from "./components/Package";
+import Sponsor from "./components/Sponsor";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
     return (
-        <div className="App bg-slate-200 dark:bg-slate-900 w-screen h-screen">
+        <div className="App w-screen h-screen">
             <TooglerMode />
             <Navbar />
             <Hero />
@@ -19,6 +24,11 @@ function App() {
             <Activity />
             <EventDetail />
             <Speaker />
+            <Package />
+            <Sponsor />
+            <Blog />
+            <Contact />
+            <Footer />
         </div>
     );
 }

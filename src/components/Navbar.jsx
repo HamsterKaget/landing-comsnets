@@ -2,14 +2,9 @@ import React, { useState } from "react";
 import Button from "./Button";
 import { TbMenu2 } from "react-icons/tb";
 import { RiCloseFill } from "react-icons/ri";
+import { navigation } from "./data/data";
 
 const Navbar = () => {
-    let navigation = [
-        { name: "Home", to: "/" },
-        { name: "Event", to: "#" },
-        { name: "Activity", to: "#" },
-        { name: "Contact", to: "#" },
-    ];
     const [open, setOpen] = useState(false);
     // const [nightMode, setNightMode] = useState(false);
     return (

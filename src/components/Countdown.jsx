@@ -1,7 +1,6 @@
 import React from "react";
 
 const countdown = () => {
-    console.log("ada");
     const eventDate = new Date("November 25, 2022, 11:00:00").getTime();
     const now = new Date().getTime();
 
@@ -34,7 +33,7 @@ const Countdown = () => {
         <>
             <section id="countdown">
                 <div className="h-auto bg-transparent w-10/12 md:w-8/12 -mt-12 mx-auto">
-                    <div className="w-10/12 md:w-8/12 bg-white dark:bg-slate-800 border-b-8 border-indigo-500 rounded-lg z-10 absolute">
+                    <div className="w-10/12 md:w-8/12 bg-white dark:bg-slate-800 border-b-8 border-indigo-500 rounded-lg z-10 absolute shadow-card2">
                         <div className="py-4 flex">
                             <div className="w-3/12 flex font-[Orbitron]">
                                 <p className="text-2xl mx-auto text-black dark:text-white">

@@ -8,7 +8,7 @@ const TooglerMode = () => {
         // console.log('ada')
         var element = document.getElementById("html");
         element.classList.toggle("dark");
-        console.log(element);
+        // console.log(element);
     }
     return (
         <>

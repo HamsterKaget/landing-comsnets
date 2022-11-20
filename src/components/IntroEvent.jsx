@@ -13,7 +13,7 @@ const IntroEvent = () => {
                     </div>
                     <div className="flex">
                         <div className="md:w-10/12 mx-auto text-left text-slate-500">
-                            <p className="event-description mt-12 my-8">
+                            <p className="event-description mt-12 my-8 text-center">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate error sequi, repellendus ad aspernatur unde placeat nam ipsa aut, odio quos libero. Commodi illo eum vitae. A, numquam autem.
                                 Cupiditate natus in, reiciendis provident itaque eum
                                 <br /> <br />
