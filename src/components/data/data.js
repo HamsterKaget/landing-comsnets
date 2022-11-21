@@ -2,17 +2,17 @@ export const navigation = [
     { name: "Home", to: "/" },
     // { name: "Event", to: "#eventDetail" },
     // { name: "Pricing", to: "/home#pricing" },
-    { name: "Become Our Sponsor", to: "/soon" },
     { name: "Soon", to: "/soon" },
+    { name: "Become Our Sponsor", to: "/soon" },
 ];
 
 export const activities = [
-    { title: "Activity", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { title: "Activity 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { title: "Activity 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { title: "Activity 4", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { title: "Activity 5", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { title: "Activity 6", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+    { id: 1, title: "Activity", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+    { id: 2, title: "Activity 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+    { id: 3, title: "Activity 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+    { id: 4, title: "Activity 4", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+    { id: 5, title: "Activity 5", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+    { id: 6, title: "Activity 6", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
 ];
 
 export const speakers = [
@@ -29,7 +29,7 @@ export const speakers = [
         image: "./image/person1.jpg",
     },
     {
-        name: "Jhon Doe",
+        name: "Kevin Reshard",
         job: "CEO",
         corp: "CEO",
         link: {
@@ -41,7 +41,7 @@ export const speakers = [
         image: "./image/person1.jpg",
     },
     {
-        name: "Jhon Doe",
+        name: "Someone Name",
         job: "CEO",
         corp: "CEO",
         link: {
@@ -53,7 +53,7 @@ export const speakers = [
         image: "./image/person1.jpg",
     },
     {
-        name: "Jhon Doe",
+        name: "Someone Name 2",
         job: "CEO",
         corp: "CEO",
         link: {
@@ -133,6 +133,7 @@ export const sponsors = [
     {
         gold: [
             {
+                id: 1,
                 name: "Kementrian Pariwisata",
                 description: "The Ministry of Tourism and Creative Economy is the ministry in Indonesia concerned with administration of.",
                 description2:
@@ -146,6 +147,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 2,
                 name: "Kementrian Pariwisata",
                 description: "The Ministry of Tourism and Creative Economy is the ministry in Indonesia concerned with administration of.",
                 description2: "        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt reiciendis consequatur, expedita cum illum sint a vel quisquam dignissimos eaque excepturi! Alias rem corporis repellat?",
@@ -158,6 +160,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 3,
                 name: "Kementrian Pariwisata",
                 description: "The Ministry of Tourism and Creative Economy is the ministry in Indonesia concerned with administration of.",
                 description2: "        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt reiciendis consequatur, expedita cum illum sint a vel quisquam dignissimos eaque excepturi! Alias rem corporis repellat?",
@@ -172,6 +175,7 @@ export const sponsors = [
         ],
         silver: [
             {
+                id: 4,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -182,6 +186,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 5,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -192,6 +197,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 6,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -202,6 +208,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 7,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -212,6 +219,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 8,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -222,6 +230,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 9,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -234,6 +243,7 @@ export const sponsors = [
         ],
         bronze: [
             {
+                id: 10,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -244,6 +254,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 11,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -254,6 +265,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 12,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -264,6 +276,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 13,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -274,6 +287,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 14,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -284,6 +298,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 15,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -294,6 +309,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
+                id: 16,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -304,46 +320,7 @@ export const sponsors = [
                 logo: "./image/kemenparekraf.png",
             },
             {
-                name: "Kementrian Pariwisata",
-                link: {
-                    web: "#",
-                    instagram: "#",
-                    twitter: "#",
-                    facebook: "#",
-                },
-                logo: "./image/kemenparekraf.png",
-            },
-            {
-                name: "Kementrian Pariwisata",
-                link: {
-                    web: "#",
-                    instagram: "#",
-                    twitter: "#",
-                    facebook: "#",
-                },
-                logo: "./image/kemenparekraf.png",
-            },
-            {
-                name: "Kementrian Pariwisata",
-                link: {
-                    web: "#",
-                    instagram: "#",
-                    twitter: "#",
-                    facebook: "#",
-                },
-                logo: "./image/kemenparekraf.png",
-            },
-            {
-                name: "Kementrian Pariwisata",
-                link: {
-                    web: "#",
-                    instagram: "#",
-                    twitter: "#",
-                    facebook: "#",
-                },
-                logo: "./image/kemenparekraf.png",
-            },
-            {
+                id: 17,
                 name: "Kementrian Pariwisata",
                 link: {
                     web: "#",
@@ -359,7 +336,7 @@ export const sponsors = [
 
 export const blogs = [
     {
-        title: "5 Ways To Become Success",
+        title: "3 Ways To Become Success",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. repudiandae mollitia tempora molestiae fugit rerum voluptatem animi obcaecati id porro cum totam quis repellat assumenda",
         link: "#",
         thumbnail: "./image/blog1.jpg",
@@ -371,13 +348,13 @@ export const blogs = [
         thumbnail: "./image/blog1.jpg",
     },
     {
-        title: "5 Ways To Become Success",
+        title: "10 Ways To Become Success",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. repudiandae mollitia tempora molestiae fugit rerum voluptatem animi obcaecati id porro cum totam quis repellat assumenda",
         link: "#",
         thumbnail: "./image/blog1.jpg",
     },
     {
-        title: "5 Ways To Become Success",
+        title: "20 Ways To Become Success",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. repudiandae mollitia tempora molestiae fugit rerum voluptatem animi obcaecati id porro cum totam quis repellat assumenda",
         link: "#",
         thumbnail: "./image/blog1.jpg",

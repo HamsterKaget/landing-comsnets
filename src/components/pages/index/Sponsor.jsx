@@ -32,7 +32,7 @@ const Sponsor = () => {
                         <div className="mt-20 w-[95%] mx-auto grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-12 gap-16">
                             {sponsors.map((sponsor) =>
                                 sponsor.gold.map((item) => (
-                                    <div className="relative bg-white dark:bg-slate-700 shadow-card flex flex-col justify-center items-center rounded-xl p-4 h-auto text-center">
+                                    <div key={item.id} className="relative bg-white dark:bg-slate-700 shadow-card flex flex-col justify-center items-center rounded-xl p-4 h-auto text-center">
                                         <div className=" absolute top-0 -translate-y-1/2 bg-white rounded-full dark:bg-slate-600 border border-slate-200 dark:border-indigo-600">
                                             <img src={item.logo} alt={item.name} className="w-24 h-24" />
                                         </div>
@@ -86,7 +86,7 @@ const Sponsor = () => {
                         <div className="mt-20 w-[95%] mx-auto grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-y-20 gap-12">
                             {sponsors.map((sponsor) =>
                                 sponsor.silver.map((item) => (
-                                    <div className="relative bg-white dark:bg-slate-700 shadow-card flex flex-col justify-center items-center rounded-xl p-4 h-auto">
+                                    <div key={item.id} className="relative bg-white dark:bg-slate-700 shadow-card flex flex-col justify-center items-center rounded-xl p-4 h-auto">
                                         <div className=" absolute top-0 -translate-y-1/2 bg-white rounded-full dark:bg-slate-600 border border-slate-200 dark:border-indigo-600">
                                             <img src={item.logo} alt={item.name} className="w-24 h-24" />
                                         </div>
@@ -137,7 +137,7 @@ const Sponsor = () => {
                         <div className="mt-20 w-[95%] mx-auto grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 gap-y-16 justify-center items-center">
                             {sponsors.map((sponsor) =>
                                 sponsor.bronze.map((item) => (
-                                    <div className="relative bg-white dark:bg-slate-700 shadow-card flex flex-col justify-center items-center rounded-xl p-4 h-auto">
+                                    <div key={item.id} className="relative bg-white dark:bg-slate-700 shadow-card flex flex-col justify-center items-center rounded-xl p-4 h-auto">
                                         <div className=" absolute top-0 -translate-y-1/2 bg-white rounded-full dark:bg-slate-600 border border-slate-200 dark:border-indigo-600">
                                             <img src={item.logo} alt={item.name} className="w-20 h-20" />
                                         </div>

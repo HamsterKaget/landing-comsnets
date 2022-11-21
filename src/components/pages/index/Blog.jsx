@@ -16,7 +16,7 @@ const Blog = () => {
 
                     <div className="w-[95%] mx-auto grid lg:grid-cols-4 sm:grid-cols-2 gap-y-8 gap-x-4">
                         {blogs.map((blog) => (
-                            <div className="bg-white dark:bg-slate-700 shadow-card2 rounded-xl text-left group border-indigo-600 dark:hover:border transition-all duration-30 hover:-translate-y-4">
+                            <div key={blog.title} className="bg-white dark:bg-slate-700 shadow-card2 rounded-xl text-left group border-indigo-600 dark:hover:border transition-all duration-30 hover:-translate-y-4">
                                 <img src={blog.thumbnail} alt="" className="w-full h-auto rounded-xl rounded-bl-none rounded-br-3xl brightness-75 group-hover:brightness-100 transition-all duration-300 bg-cover" />
                                 <div className="m-3">
                                     <h5 className="font-semibold text-lg my-2 dark:text-white">{blog.title}</h5>

@@ -18,7 +18,7 @@ const Speaker = () => {
                     <div className="my-8 w-[95%] mx-auto">
                         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center items-center">
                             {speakers.map((speaker) => (
-                                <div className="p-4">
+                                <div key={speaker.name} className="p-4">
                                     <div className="card-content flex flex-col items-center relative bg-slate-100 dark:bg-slate-700 dark:text-white rounded-3xl shadow-card2 transition-all duration-500 hover:-translate-y-3 group ">
                                         <div className="image mt-8 w-32 h-32 p-1 rounded-full z-10">
                                             <img src={speaker.image} alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />

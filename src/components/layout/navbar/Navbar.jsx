@@ -25,16 +25,14 @@ const Navbar = () => {
                         </div>
                     </div>
                     <ul
-                        className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static bg-slate-50 dark:bg-slate-800 dark:text-white lg:z-auto z-[-1] left-0 w-full lg:w-auto transition-[top] duration-500 ease-in ${
+                        className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute text-center lg:static bg-slate-50 dark:bg-slate-800 dark:text-white lg:z-auto z-[-1] left-0 w-full lg:w-auto transition-[top] duration-500 ease-in ${
                             open ? "top-[46px]" : "top-[-320px]"
                         }`}
                     >
                         {navigation.map(function (nav) {
                             return (
-                                <Link to={nav.to}>
-                                    <li key={nav.name} className="px-4 py-2 my-2 mx-2 first:mt-4 lg:first:mt-2 hover:bg-indigo-600 hover:text-white duration-300 rounded">
-                                        {nav.name}
-                                    </li>
+                                <Link key={nav.name} to={nav.to}>
+                                    <li className="px-4 py-2 my-2 mx-2 first:mt-4 lg:first:mt-2 hover:bg-indigo-600 hover:text-white duration-300 rounded">{nav.name}</li>
                                 </Link>
                             );
                         })}
