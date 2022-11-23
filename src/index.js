@@ -7,6 +7,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./components/pages/Home";
 import Soon from "./components/pages/Soon";
+import Sponsor from "./components/pages/Sponsor";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +17,7 @@ root.render(
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
+                <Route path="/sponsor" element={<Sponsor />} />
                 <Route path="/soon" element={<Soon />} />
                 {/* <Route path="/about" element={<About />} /> */}
                 {/* <Route path="/contact" element={<Contact />} /> */}

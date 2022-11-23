@@ -3,7 +3,7 @@ export const navigation = [
     // { name: "Event", to: "#eventDetail" },
     // { name: "Pricing", to: "/home#pricing" },
     { name: "Soon", to: "/soon" },
-    { name: "Become Our Sponsor", to: "/soon" },
+    // { name: "Become Our Sponsor", to: "/sponsor" },
 ];
 
 export const activities = [

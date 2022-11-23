@@ -36,7 +36,9 @@ const Navbar = () => {
                                 </Link>
                             );
                         })}
-                        <Button>Download Broshure</Button>
+                        <Link to="/sponsor">
+                            <Button>Become Our Sponsor</Button>
+                        </Link>
                     </ul>
                 </div>
                 {/* <div className="w-full md:w-4/12 float-right bg-slate-50 dark:bg-slate-800 border-b-8 border-indigo-500 rounded-b-lg">

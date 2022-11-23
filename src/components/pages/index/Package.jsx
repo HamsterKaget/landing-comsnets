@@ -2,10 +2,10 @@ import React from "react";
 import { BsCheck } from "react-icons/bs";
 import { pricing } from "../../data/data";
 
-const Package = () => {
+const Package = (props) => {
     return (
         <>
-            <section id="speaker" className="bg-white dark:bg-slate-900 ">
+            <section id="speaker" className={props.strip ? "bg-slate-50 dark:bg-slate-800" : "bg-white dark:bg-slate-900"}>
                 <div className="container h-auto mx-auto p-4">
                     <div className="my-8">
                         <div className="md:w-8/12 mx-auto text-center">
@@ -43,7 +43,7 @@ const Package = () => {
                                 </ul>
 
                                 <a
-                                    href="#"
+                                    href="/#"
                                     className={`mt-8 block  px-6 py-4 text-sm font-semibold leading-4 text-center rounded-lg 
                                     ${plan.mostPopular ? "bg-indigo-500 hover:bg-indigo-600 shadow-md text-white" : "text-indigo-700 bg-indigo-50 hover:bg-indigo-100"}
                                 `}
