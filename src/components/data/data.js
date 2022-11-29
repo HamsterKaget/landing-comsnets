@@ -395,3 +395,28 @@ export const subFooter = [
         facebook: "#",
     },
 ];
+
+// Sponsor
+
+export const features = [
+    {
+        image: "./image/vector1.png",
+        feature: "Some Feature 1",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nostrum expedita fugit ad voluptas recusandae rem quo vitae fuga tempora.",
+    },
+    {
+        image: "./image/vector1.png",
+        feature: "Some Feature 2",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nostrum expedita fugit ad voluptas recusandae rem quo vitae fuga tempora.",
+    },
+    {
+        image: "./image/vector1.png",
+        feature: "Some Feature 3",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nostrum expedita fugit ad voluptas recusandae rem quo vitae fuga tempora.",
+    },
+    {
+        image: "./image/vector1.png",
+        feature: "Some Feature 4",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nostrum expedita fugit ad voluptas recusandae rem quo vitae fuga tempora.",
+    },
+];

@@ -1,7 +1,7 @@
 import React from "react";
 
 const countdown = () => {
-    const eventDate = new Date("November 25, 2022, 11:00:00").getTime();
+    const eventDate = new Date("November 30, 2022, 11:00:00").getTime();
     const now = new Date().getTime();
 
     const difference = eventDate - now;

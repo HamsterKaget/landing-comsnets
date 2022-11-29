@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <>
             {/*Hero Section on Sponsor page */}
-            <section id="heroSponsor" className="relative bg-white dark:bg-slate-900 h-[80vh] lg:h-screen">
+            <section id="heroSponsor" className="relative bg-white dark:bg-slate-900 h-[60vh] lg:h-screen">
                 <div className="w-[90%] h-full mx-auto container flex flex-col-reverse lg:flex-row items-center gap-6 mt-32 lg:mt-0">
                     {/* Hero Content */}
                     <div className="flex flex-1 flex-col items-center lg:items-start">
@@ -14,10 +14,10 @@ const Hero = () => {
                             ex assumenda. Lorem ipsum dolor sit amet.
                         </p>
                         <div className="flex justify-center flex-wrap gap-6">
-                            <button type="button" className="py-3 px-6 bg-indigo-600 text-white rounded-lg">
+                            <button type="button" className="py-3 px-8 bg-indigo-600 text-white rounded-lg">
                                 Learn More
                             </button>
-                            <button type="button" className="py-3 px-6 bg-slate-200 text-indigo-600 shadow-lg  rounded-lg">
+                            <button type="button" className="py-3 px-8 bg-slate-200 text-indigo-600 shadow-lg  rounded-lg">
                                 Get Started
                             </button>
                         </div>
