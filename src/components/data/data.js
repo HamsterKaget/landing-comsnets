@@ -1,18 +1,61 @@
 export const navigation = [
     { name: "Home", to: "/" },
-    // { name: "Event", to: "#eventDetail" },
-    // { name: "Pricing", to: "/home#pricing" },
     { name: "Soon", to: "/soon" },
     // { name: "Become Our Sponsor", to: "/sponsor" },
 ];
 
+export const hero = [
+    {
+        title: "Comsnets Gathering",
+        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil at quibusdam deserunt, voluptates iure dolores aliquam tenetur optio similique facilis saepe voluptate. Hic sit voluptates eveniet reprehenderit qui tempora rem.",
+    },
+];
+
+export const timer = [
+    {
+        date: "December 30, 2022, 11:00:00",
+    },
+];
+
+export const introEvents = [
+    {
+        section: "Intro Event",
+        title: "what is comsnets?",
+        desc1: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate error sequi, repellendus ad aspernatur unde placeat nam ipsa aut, odio quos libero. Commodi illo eum vitae. A, numquam autem. Cupiditate natus in, reiciendis provident itaque eum",
+        desc2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure magnam odit nulla asperiores est quas porro quod voluptates dolores architecto reprehenderit, fugit doloribus velit corrupti iste culpa sint blanditiis et harum quae molestias. Inventore temporibus laborum maiores ducimus dignissimos doloremque?",
+        desc3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellendus ex quaerat, amet quia praesentium nisi dignissimos aspernatur, expedita quo aperiam dolorum autem laborum voluptatibus sapiente. Eligendi dolore saepe expedita rerum totam. ",
+        desc4: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda veniam qui voluptas molestias libero atque, illum inventore vel amet, excepturi delectus voluptatibus. Commodi numquam iste deleniti ipsa eligendi omnis.",
+    },
+];
+
 export const activities = [
-    { id: 1, title: "Activity", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { id: 2, title: "Activity 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { id: 3, title: "Activity 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { id: 4, title: "Activity 4", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { id: 5, title: "Activity 5", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
-    { id: 6, title: "Activity 6", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+    {
+        section: "Activity",
+        title: "activity",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda quaerat, eligendi sunt ratione ipsum.",
+        activity: [
+            { id: 1, title: "Activity", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+            { id: 2, title: "Activity 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+            { id: 3, title: "Activity 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+            { id: 4, title: "Activity 4", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+            { id: 5, title: "Activity 5", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+            { id: 6, title: "Activity 6", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cum quos unde iure reiciendis! Sunt praesentium ipsum pariatur corsemir.", icon: "BsChatLeftText" },
+        ],
+    },
+];
+
+export const eventDetails = [
+    {
+        section: "Activity",
+        title: "activity",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda quaerat, eligendi sunt ratione ipsum.",
+        title1: "Date & Time",
+        desc1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perspiciatis amet omnis consectetur laudantium alias",
+        title2: "Location",
+        desc2: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perspiciatis amet omnis consectetur laudantium alias",
+        title3: "Requirements",
+        desc3: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perspiciatis amet omnis consectetur laudantium alias",
+    },
 ];
 
 export const speakers = [
@@ -397,7 +440,6 @@ export const subFooter = [
 ];
 
 // Sponsor
-
 export const features = [
     {
         image: "./image/vector1.png",

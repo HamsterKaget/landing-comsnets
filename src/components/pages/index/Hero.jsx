@@ -1,15 +1,18 @@
 import React from "react";
+import { hero } from "../../data/data";
 
 const Hero = () => {
     return (
         <>
             <div id="hero" className="h-[90vh] flex items-center relative">
                 <div className="lg:w-8/12 w-10/12 mx-auto text-center">
-                    <h1 className="text-4xl my-2 lg:text-6xl text-white font-bold uppercase">Comsnets Gathering 2023</h1>
-                    <p className="text-white my-3">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil at quibusdam deserunt, voluptates iure dolores aliquam tenetur optio similique facilis saepe voluptate. Hic sit voluptates eveniet reprehenderit qui
-                        tempora rem.
-                    </p>
+                    {hero.map((data) => (
+                        <>
+                            <h1 className="text-4xl my-2 lg:text-6xl text-white font-bold uppercase">{data.title}</h1>
+                            <p className="text-white my-3">{data.desc}</p>
+                        </>
+                    ))}
+
                     <div className="flex flex-col md:flex-row justify-center item-center text-xl">
                         <a href="/" className="py-2 px-6 bg-indigo-600 text-white rounded-md m-2">
                             Explore

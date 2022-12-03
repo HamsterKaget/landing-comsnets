@@ -1,7 +1,9 @@
 import React from "react";
+import { timer } from "../../data/data";
 
 const countdown = () => {
-    const eventDate = new Date("November 30, 2022, 11:00:00").getTime();
+    const date = timer.map((time) => time.date);
+    const eventDate = new Date(date).getTime();
     const now = new Date().getTime();
 
     const difference = eventDate - now;
