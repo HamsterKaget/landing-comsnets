@@ -10,8 +10,8 @@ const Navbar = () => {
     // const [nightMode, setNightMode] = useState(false);
     return (
         <>
-            <nav className="shadow-lg w-full fixed top-0 left-0 z-50 opacity-90">
-                <div className="lg:flex items-center justify-between bg-slate-50 dark:bg-slate-800 py-2 lg:px-10 px-7">
+            <nav className="shadow-lg w-full fixed top-0 left-0 z-50 opacity-90 bg-slate-50 dark:bg-slate-800">
+                <div className="lg:flex container mx-auto items-center justify-between py-2 lg:px-10 px-7">
                     <div className="text-xl cursor-pointer flex items-center justify-between dark:text-white">
                         {/* <span></span> */}
                         Comsnets 2023
