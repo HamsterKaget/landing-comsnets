@@ -8,8 +8,11 @@ import EventDetail from "./index/EventDetail";
 import Speaker from "./index/Speaker";
 import Package from "./index/Package";
 import Sponsor from "./index/Sponsor";
-import Blog from "./index/Blog";
+import Timeline from "./index/Timeline";
 import Contact from "./index/Contact";
+import TargetAudience from "./index/TargetAudience";
+import Topic from "./index/Topic";
+import SponsorLogo from "./index/SponsorLogo";
 
 class Home extends React.Component {
     render() {
@@ -19,12 +22,16 @@ class Home extends React.Component {
                     <Hero />
                     <Countdown />
                     <IntroEvent />
-                    <Activity />
+                    {/* <Timeline /> */}
+                    <Topic />
+                    <TargetAudience />
+                    {/* <Speaker /> */}
                     <EventDetail />
-                    <Speaker />
-                    <Package />
-                    <Sponsor />
-                    <Blog />
+                    <Package strip />
+                    <SponsorLogo />
+                    {/* <Sponsor /> */}
+                    {/* <Activity /> */}
+                    {/* <Blog /> */}
                     <Contact />
                 </Layout>
             </>

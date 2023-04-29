@@ -8,6 +8,10 @@ import reportWebVitals from "./reportWebVitals";
 import Home from "./components/pages/Home";
 import Soon from "./components/pages/Soon";
 import Sponsor from "./components/pages/Sponsor";
+import Partnership from "./components/pages/Partnership";
+import ContactUs from "./components/pages/ContactUs";
+import PrivacyPolice from "./components/pages/PrivacyPolice";
+import Disclaimer from "./components/pages/Disclaimer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,8 +21,12 @@ root.render(
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
+                <Route path="/partnership" element={<Partnership />} />
                 <Route path="/sponsor" element={<Sponsor />} />
                 <Route path="/soon" element={<Soon />} />
+                <Route path="/contact" element={<ContactUs />} />
+                <Route path="/privacy-police" element={<PrivacyPolice />} />
+                <Route path="/disclaimer" element={<Disclaimer />} />
                 {/* <Route path="/about" element={<About />} /> */}
                 {/* <Route path="/contact" element={<Contact />} /> */}
             </Routes>

@@ -28,7 +28,7 @@ const Package = (props) => {
                                 <div className="mt-4 bg-slate-50 dark:bg-slate-600 p-6 rounded-lg -mx-6">
                                     <p className="text-sm font-semibold text-slate-500 dark:text-indigo-50 flex items-center">
                                         <span>{plan.currency}</span>
-                                        <span className="ml-3 text-4xl text-slate-900 dark:text-white">${plan.price}</span>
+                                        <span className="ml-3 text-4xl text-slate-900 dark:text-white">{plan.price}</span>
                                         <span className="ml-1.5">{plan.frequency}</span>
                                     </p>
                                 </div>

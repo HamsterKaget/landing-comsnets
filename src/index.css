@@ -55,6 +55,12 @@ code {
     background-size: cover;
     min-height: 500px;
 }
+.col-img-topic {
+    background-image: url("../public/image/vector-bali1.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
 
 .card-content::before {
     content: "";

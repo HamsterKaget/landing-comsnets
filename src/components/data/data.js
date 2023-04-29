@@ -1,30 +1,119 @@
 export const navigation = [
-    { name: "Home", to: "/" },
-    { name: "Soon", to: "/soon" },
-    // { name: "Become Our Sponsor", to: "/sponsor" },
+    {
+        name: "Home",
+        to: "/",
+    },
+    {
+        name: "Sponsor",
+        to: "/soon",
+        subMenu: [
+            {
+                name: "Our Sponsor",
+                to: "/soon",
+            },
+            {
+                name: "Become a Sponsor",
+                to: "/soon",
+            },
+        ],
+    },
+    {
+        name: "Partnership",
+        to: "/soon",
+    },
+    {
+        name: "About Us",
+        to: "/",
+        subMenu: [
+            // {
+            //     name: "Our Team",
+            //     to: "/soon",
+            // },
+            {
+                name: "About Us",
+                to: "/soon",
+            },
+            {
+                name: "About Comsnet",
+                to: "/soon",
+            },
+        ],
+    },
+    {
+        name: "Extras",
+        to: "/",
+        subMenu: [
+            {
+                name: "Privacy Police",
+                to: "/privacy-police",
+            },
+            {
+                name: "Disclaimer",
+                to: "/disclaimer",
+            },
+            {
+                name: "Contact Us",
+                to: "/contact",
+            },
+        ],
+    },
 ];
 
 export const hero = [
     {
-        title: "Comsnets Gathering",
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil at quibusdam deserunt, voluptates iure dolores aliquam tenetur optio similique facilis saepe voluptate. Hic sit voluptates eveniet reprehenderit qui tempora rem.",
+        title: "Gathering in Bali 2023",
+        featured: "partner and collaborate with comsnets",
+        // subtitle: " Empowering the Future of Communication Networks and Services",
+        desc: "Welcome to Gatheringinbali 2023, the premier event that brings together experts, researchers, and enthusiasts from the world of communication, networks, and security. We're thrilled to have you join us on this exciting journey of discovery, innovation, and collaboration. Get ready to be a part of an incredible community and explore the latest trends, ideas, and breakthroughs in the field. Let's make this Gatheringinbali a memorable experience for all!",
     },
 ];
 
 export const timer = [
     {
-        date: "December 30, 2022, 11:00:00",
+        date: "May 16, 2023, 10:00:00",
+    },
+];
+
+export const timeLine = [
+    {
+        index: 1,
+        name: "Eps 1 : Social Media Security",
+        desc: "some description",
+        status: "done",
+    },
+    {
+        index: 2,
+        name: "Eps 2 : Cyber Security",
+        desc: "some description",
+        status: "active",
+    },
+    {
+        index: 3,
+        name: "Eps 3 : Digital Footprints",
+        desc: "some description",
+        status: "locked",
+    },
+    {
+        index: 4,
+        name: "Eps 4 : A.I Revolution",
+        desc: "some description",
+        status: "locked",
+    },
+    {
+        index: 5,
+        name: "Eps 5 : Social Media Security",
+        desc: "some description",
+        status: "locked",
     },
 ];
 
 export const introEvents = [
     {
         section: "Intro Event",
-        title: "what is comsnets?",
-        desc1: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate error sequi, repellendus ad aspernatur unde placeat nam ipsa aut, odio quos libero. Commodi illo eum vitae. A, numquam autem. Cupiditate natus in, reiciendis provident itaque eum",
-        desc2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure magnam odit nulla asperiores est quas porro quod voluptates dolores architecto reprehenderit, fugit doloribus velit corrupti iste culpa sint blanditiis et harum quae molestias. Inventore temporibus laborum maiores ducimus dignissimos doloremque?",
-        desc3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellendus ex quaerat, amet quia praesentium nisi dignissimos aspernatur, expedita quo aperiam dolorum autem laborum voluptatibus sapiente. Eligendi dolore saepe expedita rerum totam. ",
-        desc4: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda veniam qui voluptas molestias libero atque, illum inventore vel amet, excepturi delectus voluptatibus. Commodi numquam iste deleniti ipsa eligendi omnis.",
+        title: "Introduction",
+        desc1: "Introducing the much-awaited Episode 2 of our event series, focused on the pressing topic of Cyber Security. In today's digital age, with increased dependence on technology and connectivity, the threat of cyber-attacks has become a major concern for individuals and organizations alike. Our event aims to shed light on the various dimensions of cyber security and equip you with the knowledge and tools needed to stay safe in the digital realm. ",
+        desc2: "Our conference covers a broad range of topics related to networking and communication, including wireless and mobile communication, network protocols and architectures, multimedia communication, cloud computing, and cybersecurity.",
+        desc3: "Our conference features keynote speeches, technical sessions, tutorials, and panel discussions. It is a platform for you to network, share knowledge, and learn from some of the best minds in the field. We hope that you will have a productive and enjoyable time at the conference.",
     },
 ];
 
@@ -46,19 +135,94 @@ export const activities = [
 
 export const eventDetails = [
     {
-        section: "Activity",
-        title: "activity",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda quaerat, eligendi sunt ratione ipsum.",
+        section: "Event Information",
+        title: "Event Information",
+        // desc1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perspiciatis amet omnis consectetur laudantium alias",
         title1: "Date & Time",
-        desc1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perspiciatis amet omnis consectetur laudantium alias",
+        desc1: " COMSNETS 2023 will be held in June, However The Tickets will be available for purchase starting March 1st. Get your tickets early and prepare to join us for an exciting and informative conference",
         title2: "Location",
-        desc2: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perspiciatis amet omnis consectetur laudantium alias",
+        desc2: "COMSNETS 2023 will be held in Bali, providing an unforgettable experience for conference participants to explore the beauty of the island while learning and discussing the latest developments in the field of communication systems and networks.",
         title3: "Requirements",
-        desc3: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perspiciatis amet omnis consectetur laudantium alias",
+        desc3: "To attend COMSNETS 2023, participants will need to purchase a ticket through our official website. We will have a variety of ticketing options available to suit different needs and budgets. Additionally, due to the ongoing COVID-19 pandemic,",
+    },
+];
+
+export const topic = [
+    {
+        section: "Event Details",
+        title: "What's The Topic ?",
+        desc1: "The topic of cybersecurity is of paramount importance in today's increasingly connected world. As we become more reliant on technology and digital communication, the security of our data and systems becomes more critical.",
+        desc2: "The cybersecurity track at COMSNETS 2023 will explore various aspects of cybersecurity, including threats, vulnerabilities, and defenses, in the context of communication systems and networks. The track will cover topics such as network security, data protection, privacy, cryptography, and threat intelligence, among others.",
+        desc3: "Attendees will have the opportunity to learn about the latest research and developments in the field, as well as to discuss and share their own insights and experiences.",
+    },
+];
+
+export const topicImage = [
+    {
+        src: "/image/cyber-1.jpg",
+        alt: "cyber",
+    },
+    {
+        src: "/image/cyber-0.png",
+        alt: "cyber",
+    },
+    {
+        src: "/image/cyber-2.jpg",
+        alt: "cyber",
+    },
+    {
+        src: "/image/cyber-3.jpg",
+        alt: "cyber",
+    },
+];
+
+export const targetAudience = [
+    {
+        section: "Event Details",
+        title: "Who's The Target Audience ?",
+        desc1: "The target audience for COMSNETS includes researchers, academics, and industry professionals who are interested in the field of communication systems and networks.",
+        desc2: "Specifically, the conference caters to individuals who are interested in wireless and mobile communication, network protocols and architectures, multimedia communication, cloud computing, and cybersecurity.",
+        desc3: " This can include individuals from a range of fields, such as computer science, electrical engineering, telecommunications, and information technology. The conference is open to participants from all over the world who are interested in these areas of research and development.",
     },
 ];
 
 export const speakers = [
+    {
+        name: "Jhon Doe",
+        job: "CEO",
+        corp: "CEO",
+        link: {
+            instagram: "#",
+            facebook: "#",
+            linkedin: "#",
+        },
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, inventore autem ratione optio itaque tempora.",
+        image: "./image/person1.jpg",
+    },
+    {
+        name: "Jhon Doe",
+        job: "CEO",
+        corp: "CEO",
+        link: {
+            instagram: "#",
+            facebook: "#",
+            linkedin: "#",
+        },
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, inventore autem ratione optio itaque tempora.",
+        image: "./image/person1.jpg",
+    },
+    {
+        name: "Jhon Doe",
+        job: "CEO",
+        corp: "CEO",
+        link: {
+            instagram: "#",
+            facebook: "#",
+            linkedin: "#",
+        },
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, inventore autem ratione optio itaque tempora.",
+        image: "./image/person1.jpg",
+    },
     {
         name: "Jhon Doe",
         job: "CEO",
@@ -111,64 +275,64 @@ export const speakers = [
 
 export const pricing = [
     {
-        title: "Freelancer",
-        price: 19,
-        currency: "USD",
-        frequency: "/person",
+        title: "Day 1 Pass",
+        price: "150.000",
+        currency: "Rp",
+        frequency: "/ticket",
         description: "some short description for product",
-        features: ["Acces  to all activity", "5 Stars hotel room", "Free Lunch, Dinner & Snack", "Free 2 Merchandise", "Free Certificates"],
+        features: ["Acces  to all activity in day 1", "5 Stars hotel room", "Free Lunch, Dinner & Snack", "Free 2 Merchandise", "Free Certificates"],
         cta: "Get Started",
         mostPopular: false,
     },
     {
-        title: "Startup",
-        price: 49,
-        currency: "USD",
-        frequency: "/3 person",
+        title: "Day 2 Pass",
+        price: "125.000",
+        currency: "Rp",
+        frequency: "/ticket",
         description: "some short description for product",
-        features: ["Acces  to all activity", "5 Stars hotel room", "Free Lunch, Dinner & Snack", "Free 3 Merchandise", "Free Certificates", "Free One Hour Consultation", "Get Acces to backstage"],
+        features: ["Acces  to all activity in Day 2", "5 Stars hotel room", "Free Lunch, Dinner & Snack", "Free 2 Merchandise", "Free Certificates"],
+        cta: "Get Started",
+        mostPopular: false,
+    },
+    {
+        title: "Day 3 Pass",
+        price: "199.000",
+        currency: "Rp",
+        frequency: "/Ticket",
+        description: "some short description for product",
+        features: [
+            "Acces  to all activity in Day 3",
+            "5 Stars hotel room",
+            "Free Lunch, Dinner & Snack",
+            "Free 2 Merchandise",
+            "Free Certificates",
+            // "Free One Hour Consultation",
+            // "Get Access to backstage ",
+            // "Free Talk to Our Speaker at Backstage",
+            // "Get Special Perks from Bali Islands",
+        ],
+        cta: "Get Started",
+        mostPopular: false,
+    },
+    {
+        title: "Full Day Pass",
+        price: "299.000",
+        currency: "Rp",
+        frequency: "/ticket",
+        description: "some short description for product",
+        features: [
+            "Acces  to all activity in All Days",
+            "5 Stars hotel room",
+            "Free Lunch, Dinner & Snack",
+            "Free 2 Merchandise",
+            "Free Certificates",
+            "Free One Hour Consultation",
+            "Get Access to backstage ",
+            "Free Talk to Our Speaker at Backstage",
+            "Get Special Perks from Bali Islands",
+        ],
         cta: "Get Started",
         mostPopular: true,
-    },
-    {
-        title: "Enterprice",
-        price: 79,
-        currency: "USD",
-        frequency: "/5 person",
-        description: "some short description for product",
-        features: [
-            "Acces  to all activity",
-            "5 Stars hotel room",
-            "Free Lunch, Dinner & Snack",
-            "Free 5 Merchandise",
-            "Free Certificates",
-            "Free One Hour Consultation",
-            "Get Access to backstage ",
-            "Free Talk to Our Speaker at Backstage",
-            "Get Special Perks from Bali Islands",
-        ],
-        cta: "Get Started",
-        mostPopular: false,
-    },
-    {
-        title: "Costum",
-        price: "xxx",
-        currency: "USD",
-        frequency: "/person",
-        description: "some short description for product",
-        features: [
-            "Acces  to all activity",
-            "5 Stars hotel room",
-            "Free Lunch, Dinner & Snack",
-            "Free 5 Merchandise",
-            "Free Certificates",
-            "Free One Hour Consultation",
-            "Get Access to backstage ",
-            "Free Talk to Our Speaker at Backstage",
-            "Get Special Perks from Bali Islands",
-        ],
-        cta: "Get Started",
-        mostPopular: false,
     },
 ];
 
@@ -415,11 +579,11 @@ export const footer = [
         },
         usefullLink: [
             { name: "Home", link: "/" },
-            { name: "About", link: "#" },
-            { name: "Contact", link: "#" },
-            { name: "Online Shop", link: "#" },
-            { name: "Privacy Police", link: "#" },
-            { name: "Become Our Sponsor", link: "#" },
+            { name: "About", link: "/about-us" },
+            { name: "Contact", link: "https://linktr.ee/gatheringinbali" },
+            { name: "Online Shop", link: "https://shop.gatheringinbali.com" },
+            { name: "Privacy Police", link: "/privacy-police" },
+            { name: "Become Our Sponsor", link: "/become-sponsor" },
         ],
         ourServices: [
             { name: "Marketing", link: "/" },
@@ -432,10 +596,12 @@ export const footer = [
 
 export const subFooter = [
     {
-        linkedin: "#",
+        youtube: "https://www.youtube.com/@gathering.inbali/about",
+        instagram: "https://instagram.com/gathering.inbali",
+        facebook: "https://instagram.com/gathering.inbali",
         twitter: "#",
-        instagram: "#",
-        facebook: "#",
+        tiktok: "https://tiktok.com/@gathering.inbali",
+        linkedin: "#",
     },
 ];
 
@@ -460,5 +626,213 @@ export const features = [
         image: "./image/vector1.png",
         feature: "Some Feature 4",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nostrum expedita fugit ad voluptas recusandae rem quo vitae fuga tempora.",
+    },
+];
+
+export const sponsorLogo = [
+    {
+        partner: [
+            // {
+            //     src: "/image/ibm.png",
+            //     alt: "IBM Logo",
+            //     href: "#",
+            // },
+            // {
+            //     src: "/image/red-hat.svg",
+            //     alt: "Red Hut Logo",
+            //     href: "#",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/AMD_Logo.png",
+            //     alt: "AMD",
+            //     href: "#",
+            // },
+            // {
+            //     src: "/image/ibm.png",
+            //     alt: "IBM Logo",
+            //     href: "#",
+            // },
+            // {
+            //     src: "/image/red-hat.svg",
+            //     alt: "Red Hut Logo",
+            //     href: "#",
+            // },
+        ],
+        gold: [
+            // {
+            //     src: "/image/red-hat.svg",
+            //     alt: "Red Hut Logo",
+            //     href: "#",
+            // },
+            // {
+            //     src: "/image/ibm.png",
+            //     alt: "IBM Logo",
+            //     href: "#",
+            // },
+            // {
+            //     src: "/image/red-hat.svg",
+            //     alt: "Red Hut Logo",
+            //     href: "#",
+            // },
+            // {
+            //     src: "/image/ibm.png",
+            //     alt: "IBM Logo",
+            //     href: "#",
+            // },
+        ],
+        silver: [
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "",
+            //     alt: "",
+            //     href: "",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+        ],
+        bronze: [
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+            // {
+            //     src: "/image/niagahoster.png",
+            //     alt: "Niaga Hoster",
+            //     href: "https://niagahoster.com",
+            // },
+        ],
     },
 ];

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { footer, subFooter } from "../../data/data";
-import { FaInstagram, FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube, FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
     let navigation = [
@@ -17,37 +17,39 @@ const Footer = () => {
                 <div className="container mx-auto py-8">
                     <div className="w-[90%] mx-auto lg:text-left grid gap-12 gap-y-8 lg:grid-cols-4 sm:grid-cols-2 text-center">
                         <div className="mb-2 text-slate-600 dark:text-slate-400 text-sm sm:order-2 lg:order-first">
-                            <h4 className="font-bold text-lg my-2 text-slate-900 dark:text-white">Comsnets</h4>
-                            A123 Some Street <br />
-                            Tanggerang, 16136 <br />
+                            <h4 className="font-bold text-lg my-2 text-slate-900 dark:text-white">Gathering In Bali</h4>
+                            Skyview Apartment 7/26 Jl. Lengkong Gudang Timur Raya Kel Lengkong
+                            <br />
+                            Kota Tangerang Selatan, Banten 15311
+                            <br />
                             Indonesia <br /> <br />
                             <span className="dark:text-slate-200">
-                                <strong>Phone:</strong> +62 838 2525 1212
+                                <strong>Phone:</strong> +62 812 675 60 600
                             </span>{" "}
                             <br />
                             <span className="dark:text-slate-200">
-                                <strong>Email:</strong> info@advansmanajemen.com
+                                <strong>Email:</strong> contact@gatheringinbali.com
                             </span>{" "}
                             <br />
                         </div>
                         <div className="mb-2 text-slate-600 dark:text-slate-200">
-                            <h4 className="my-2 text-lg text-slate-800 dark:text-white font-semibold">Usefull Links</h4>
+                            {/* <h4 className="my-2 text-lg text-slate-800 dark:text-white font-semibold">Our Services</h4>
                             <ul>
                                 {footer.map((items) =>
-                                    items.usefullLink.map((item) => (
+                                    items.ourServices.map((item) => (
                                         <li key={item.name} className="my-2">
                                             <a href={item.link}>{item.name}</a>
                                         </li>
                                     ))
                                 )}
-                            </ul>
+                            </ul> */}
                         </div>
                         <div className="mb-2 text-slate-600 dark:text-slate-200">
-                            <h4 className="my-2 text-lg text-slate-800 dark:text-white font-semibold">Our Services</h4>
+                            <h4 className="my-2 text-lg text-center text-slate-800 dark:text-white font-semibold">Usefull Links</h4>
                             <ul>
                                 {footer.map((items) =>
-                                    items.ourServices.map((item) => (
-                                        <li key={item.name} className="my-2">
+                                    items.usefullLink.map((item) => (
+                                        <li key={item.name} className="my-2 text-center">
                                             <a href={item.link}>{item.name}</a>
                                         </li>
                                     ))
@@ -78,7 +80,7 @@ const Footer = () => {
                     <div className="w-[80%] mx-auto container flex flex-col sm:flex-row justify-center text-center sm:text-left">
                         <div className="sm:w-1/2 w-full flex sm:justify-start justify-center items-center">
                             <p className="p-4 text-sm text-center">
-                                <span className="font-bold">© 2022 - 2023 Comsnets</span>
+                                <span className="font-bold">© 2022 - 2023 GatheringInBali</span>
                                 <br />
                                 All Right Reserved
                             </p>
@@ -86,17 +88,23 @@ const Footer = () => {
 
                         {subFooter.map((item) => (
                             <div key={item.instagram} className="sm:w-1/2 w-full flex items-center sm:justify-end justify-center gap-4 p-4">
-                                <a className="border border-indigo-600 p-2 transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:-translate-y-1 rounded-full text-indigo-600" href={item.linkedin}>
-                                    <FaLinkedinIn />
-                                </a>
-                                <a className="border border-indigo-600 p-2 transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:-translate-y-1 rounded-full text-indigo-600" href={item.twitter}>
-                                    <FaTwitter />
+                                <a className="border border-indigo-600 p-2 transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:-translate-y-1 rounded-full text-indigo-600" href={item.youtube}>
+                                    <FaYoutube />
                                 </a>
                                 <a className="border border-indigo-600 p-2 transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:-translate-y-1 rounded-full text-indigo-600" href={item.instagram}>
                                     <FaInstagram />
                                 </a>
                                 <a className="border border-indigo-600 p-2 transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:-translate-y-1 rounded-full text-indigo-600" href={item.facebook}>
                                     <FaFacebookF />
+                                </a>
+                                <a className="border border-indigo-600 p-2 transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:-translate-y-1 rounded-full text-indigo-600" href={item.tiktok}>
+                                    <FaTiktok />
+                                </a>
+                                <a className="border border-indigo-600 p-2 transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:-translate-y-1 rounded-full text-indigo-600" href={item.twitter}>
+                                    <FaTwitter />
+                                </a>
+                                <a className="border border-indigo-600 p-2 transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:-translate-y-1 rounded-full text-indigo-600" href={item.linkedin}>
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         ))}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
@@ -31,6 +32,15 @@ const Contact = () => {
                             </button>
                         </div>
                     </form>
+                    {/* <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white text-center my-4">OR</h1> */}
+                    <div className="w-[90%] mx-auto grid gap-3 justify-center lg:grid-cols-2 grid-cols-1 dark:text-white my-5">
+                        <Link to={"https://wa.me/6281267560600"} target={"_blank"}>
+                            <button className="border-green-500 border-2 text-green-400 hover:bg-green-500 hover:text-white hover:-mt-3 w-full p-3 rounded-lg transition-all duration-300">Contact us by WhatsApp</button>
+                        </Link>
+                        <Link to={"mailto:contact@gatheringinbali.com"} target={"_blank"}>
+                            <button className="border-orange-500 border-2 text-orange-400 hover:bg-orange-500 hover:text-white hover:-mt-3 w-full p-3 rounded-lg transition-all duration-300">Contact us by Email</button>
+                        </Link>
+                    </div>
                 </div>
             </section>
         </>
