@@ -15,7 +15,7 @@ const Package = (props) => {
                         </div>
                     </div>
 
-                    <div className="w-[95%] mx-auto grid lg:grid-cols-4 sm:grid-cols-2 gap-12 lg:gap-8 py-12">
+                    <div className="w-[95%] lg:w-[75%] mx-auto grid lg:grid-cols-3 sm:grid-cols-2 gap-12 lg:gap-8 py-12">
                         {pricing.map((plan) => (
                             <div
                                 key={plan.title}

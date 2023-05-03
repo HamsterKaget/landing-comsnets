@@ -65,9 +65,9 @@ const Committee = () => {
                             }}
                         >
                             {committee.map((speaker) => (
-                                <SwiperSlide key={sspeaker.name}>
+                                <SwiperSlide key={speaker.name}>
                                     <div key={speaker.name} className="p-4">
-                                        <div className="card-content flex flex-col items-center relative bg-slate-100 dark:bg-slate-700 dark:text-white rounded-3xl shadow-card2 transition-all duration-500 hover:-translate-y-3 group ">
+                                        <div className="card-content flex flex-col flex-grow items-center relative bg-slate-100 dark:bg-slate-700 dark:text-white rounded-3xl shadow-card2 transition-all duration-500 hover:-translate-y-3 group ">
                                             <div className="image mt-8 w-32 h-32 p-1 rounded-full z-10">
                                                 <img src={speaker.image} alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                                             </div>
