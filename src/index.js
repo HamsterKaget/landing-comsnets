@@ -12,6 +12,7 @@ import Partnership from "./components/pages/Partnership";
 import ContactUs from "./components/pages/ContactUs";
 import PrivacyPolice from "./components/pages/PrivacyPolice";
 import Disclaimer from "./components/pages/Disclaimer";
+import Comsnets from "./components/pages/AboutComsnet";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,8 +26,9 @@ root.render(
                 <Route path="/sponsor" element={<Sponsor />} />
                 <Route path="/soon" element={<Soon />} />
                 <Route path="/contact" element={<ContactUs />} />
-                <Route path="/privacy-police" element={<PrivacyPolice />} />
+                <Route path="/privacy-policy" element={<PrivacyPolice />} />
                 <Route path="/disclaimer" element={<Disclaimer />} />
+                <Route path="/about-comsnets" element={<Comsnets />} />
                 {/* <Route path="/about" element={<About />} /> */}
                 {/* <Route path="/contact" element={<Contact />} /> */}
             </Routes>

@@ -13,7 +13,10 @@ const Navbar = () => {
             <nav className="shadow-lg w-full fixed top-0 left-0 z-50 opacity-90 bg-slate-50 dark:bg-slate-800">
                 <div className="lg:flex container mx-auto items-center justify-between py-2 lg:px-10 px-7">
                     <div className="text-xl cursor-pointer flex items-center justify-between dark:text-white">
-                        gatheringinbali
+                        <Link to={"/home"}>
+                            <img src="image/favicon.png" alt="" className="h-8 w-8 mx-4 inline-block" />
+                            gatheringinbali
+                        </Link>
                         <div onClick={() => setOpen(!open)} className="text-3xl my-auto lg:hidden">
                             {open ? <RiCloseFill className="dark:text-white" /> : <TbMenu2 className="dark:text-white" />}
                         </div>

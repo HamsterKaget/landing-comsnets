@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { footer, subFooter } from "../../data/data";
 import { FaInstagram, FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube, FaTiktok } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     let navigation = [
@@ -49,9 +50,11 @@ const Footer = () => {
                             <ul>
                                 {footer.map((items) =>
                                     items.usefullLink.map((item) => (
-                                        <li key={item.name} className="my-2 text-center">
-                                            <a href={item.link}>{item.name}</a>
-                                        </li>
+                                        <Link to={item.link}>
+                                            <li key={item.name} className="my-2 text-center">
+                                                <span>{item.name}</span>
+                                            </li>
+                                        </Link>
                                     ))
                                 )}
                             </ul>

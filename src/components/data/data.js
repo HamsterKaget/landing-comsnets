@@ -34,8 +34,8 @@ export const navigation = [
                 to: "/soon",
             },
             {
-                name: "About Comsnet",
-                to: "/soon",
+                name: "About Comsnets",
+                to: "/about-comsnets",
             },
         ],
     },
@@ -44,8 +44,8 @@ export const navigation = [
         to: "/",
         subMenu: [
             {
-                name: "Privacy Police",
-                to: "/privacy-police",
+                name: "Privacy Policy",
+                to: "/privacy-policy",
             },
             {
                 name: "Disclaimer",
@@ -139,11 +139,11 @@ export const eventDetails = [
         title: "Event Information",
         // desc1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perspiciatis amet omnis consectetur laudantium alias",
         title1: "Date & Time",
-        desc1: " COMSNETS 2023 will be held in June, However The Tickets will be available for purchase starting March 1st. Get your tickets early and prepare to join us for an exciting and informative conference",
+        desc1: " Gathering and Workshop with Comsnets in Bali 2023 will be held in November, However The Tickets will be available for purchase starting June 1st. Get your tickets early and prepare to join us for an exciting and informative conference",
         title2: "Location",
-        desc2: "COMSNETS 2023 will be held in Bali, providing an unforgettable experience for conference participants to explore the beauty of the island while learning and discussing the latest developments in the field of communication systems and networks.",
+        desc2: "Gathering and Workshop with Comsnets in Bali 2023 will be held in Bali, providing an unforgettable experience for conference participants to explore the beauty of the island while learning and discussing the latest developments in the field of communication systems and networks.",
         title3: "Requirements",
-        desc3: "To attend COMSNETS 2023, participants will need to purchase a ticket through our official website. We will have a variety of ticketing options available to suit different needs and budgets. Additionally, due to the ongoing COVID-19 pandemic,",
+        desc3: "To attend Gathering and Workshop with Comsnets in Bali 2023, participants will need to purchase a ticket through our official website. We will have a variety of ticketing options available to suit different needs and budgets. Additionally, due to the ongoing COVID-19 pandemic,",
     },
 ];
 
@@ -152,7 +152,7 @@ export const topic = [
         section: "Event Details",
         title: "What's The Topic ?",
         desc1: "The topic of cybersecurity is of paramount importance in today's increasingly connected world. As we become more reliant on technology and digital communication, the security of our data and systems becomes more critical.",
-        desc2: "The cybersecurity track at COMSNETS 2023 will explore various aspects of cybersecurity, including threats, vulnerabilities, and defenses, in the context of communication systems and networks. The track will cover topics such as network security, data protection, privacy, cryptography, and threat intelligence, among others.",
+        desc2: "The cybersecurity track at Gathering and Workshop with Comsnets in Bali 2023 will explore various aspects of cybersecurity, including threats, vulnerabilities, and defenses, in the context of communication systems and networks. The track will cover topics such as network security, data protection, privacy, cryptography, and threat intelligence, among others.",
         desc3: "Attendees will have the opportunity to learn about the latest research and developments in the field, as well as to discuss and share their own insights and experiences.",
     },
 ];
@@ -270,6 +270,57 @@ export const speakers = [
         },
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, inventore autem ratione optio itaque tempora.",
         image: "./image/person1.jpg",
+    },
+];
+
+export const committee = [
+    {
+        name: "Uday Desai",
+        job: "Indian Institute of Technology Hyderabad",
+        corp: "India",
+        link: {
+            instagram: "#",
+            facebook: "#",
+            linkedin: "#",
+        },
+        description: "",
+        image: "./image/uday_desai.jpg",
+    },
+    {
+        name: "Giridhar Mandyam",
+        job: "Qualcomm",
+        corp: "USA",
+        link: {
+            instagram: "#",
+            facebook: "#",
+            linkedin: "https://www.linkedin.com/in/giridharmandyam/",
+        },
+        description: "",
+        image: "./image/giridhar_mandyam.jpg",
+    },
+    {
+        name: "Rajeev Shorey",
+        job: "UQIDAR, Indian Institute of Technology Delhi",
+        corp: "India",
+        link: {
+            instagram: "#",
+            facebook: "#",
+            linkedin: "https://in.linkedin.com/pub/rajeev-shorey/6/390/894",
+        },
+        description: "",
+        image: "./image/rajeev_shorey.jpg",
+    },
+    {
+        name: "G. Venkatesh",
+        job: "Sasken",
+        corp: "India",
+        link: {
+            instagram: "#",
+            facebook: "#",
+            linkedin: "https://in.linkedin.com/pub/venkatesh-g/0/a58/a02",
+        },
+        description: "",
+        image: "./image/g_venkatesh.jpg",
     },
 ];
 
@@ -580,9 +631,9 @@ export const footer = [
         usefullLink: [
             { name: "Home", link: "/" },
             { name: "About", link: "/about-us" },
-            { name: "Contact", link: "https://linktr.ee/gatheringinbali" },
+            { name: "Contact", link: "/contact-us" },
             { name: "Online Shop", link: "https://shop.gatheringinbali.com" },
-            { name: "Privacy Police", link: "/privacy-police" },
+            { name: "Privacy Policy", link: "/privacy-policy" },
             { name: "Become Our Sponsor", link: "/become-sponsor" },
         ],
         ourServices: [
@@ -598,7 +649,7 @@ export const subFooter = [
     {
         youtube: "https://www.youtube.com/@gathering.inbali/about",
         instagram: "https://instagram.com/gathering.inbali",
-        facebook: "https://instagram.com/gathering.inbali",
+        facebook: "https://www.facebook.com/gathering.inbali",
         twitter: "#",
         tiktok: "https://tiktok.com/@gathering.inbali",
         linkedin: "#",
