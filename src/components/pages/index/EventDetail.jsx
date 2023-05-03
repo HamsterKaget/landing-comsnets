@@ -14,7 +14,7 @@ const EventDetail = () => {
                                 {eventDetails.map((data) => (
                                     <>
                                         <div className="text-center">
-                                            <h6 className="text-indigo-600 font-bold text-base">{data.section}</h6>
+                                            {/* <h6 className="text-indigo-600 font-bold text-base">{data.section}</h6> */}
                                             <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white">{data.title}</h1>
                                             <p className="text-slate-500 mt-2 mb-6">{data.desc}</p>
                                         </div>

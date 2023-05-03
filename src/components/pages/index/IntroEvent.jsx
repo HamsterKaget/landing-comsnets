@@ -10,7 +10,7 @@ const IntroEvent = () => {
                         <>
                             <div className="mt-8">
                                 <div className="md:w-8/12 mx-auto text-center">
-                                    <h6 className="text-indigo-600 font-bold uppercase text-base">{data.section}</h6>
+                                    {/* <h6 className="text-indigo-600 font-bold uppercase text-base">{data.section}</h6> */}
                                     <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white">{data.title}</h1>
                                 </div>
                             </div>

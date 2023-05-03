@@ -8,12 +8,12 @@ const Hero = () => {
                 <div className="lg:w-8/12 w-10/12 mx-auto text-center">
                     {hero.map((data) => (
                         <>
-                            <h1 className="text-4xl my-2 lg:text-6xl text-white font-bold uppercase" key={data.title}>
-                                {data.title}
-                            </h1>
                             <h2 className="text-lg my-2 lg:text-lg text-white opacity-75 font-bold uppercase" key={data.title}>
                                 {data.featured}
                             </h2>
+                            <h1 className="text-4xl my-2 lg:text-6xl text-white font-bold uppercase" key={data.title}>
+                                {data.title}
+                            </h1>
                             <p className="text-white my-3">{data.desc}</p>
                         </>
                     ))}

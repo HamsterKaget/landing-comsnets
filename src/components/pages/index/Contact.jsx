@@ -8,7 +8,7 @@ const Contact = () => {
                 <div className="container h-auto mx-auto p-4 pb-16">
                     <div className="my-8">
                         <div className="md:w-8/12 mx-auto text-center">
-                            <h6 className="text-indigo-600 font-bold text-base">Contact</h6>
+                            {/* <h6 className="text-indigo-600 font-bold text-base">Contact</h6> */}
                             <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white">Get in Touch With Us !</h1>
                             <p className="text-slate-500 mt-2 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda quaerat, eligendi sunt ratione ipsum.</p>
                         </div>

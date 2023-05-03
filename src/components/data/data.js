@@ -61,10 +61,10 @@ export const navigation = [
 
 export const hero = [
     {
-        title: "Gathering in Bali 2023",
-        featured: "partner and collaborate with comsnets",
+        title: "Comsnets Bali 2023",
+        featured: "Gathering In Bali Present",
         // subtitle: " Empowering the Future of Communication Networks and Services",
-        desc: "Welcome to Gatheringinbali 2023, the premier event that brings together experts, researchers, and enthusiasts from the world of communication, networks, and security. We're thrilled to have you join us on this exciting journey of discovery, innovation, and collaboration. Get ready to be a part of an incredible community and explore the latest trends, ideas, and breakthroughs in the field. Let's make this Gatheringinbali a memorable experience for all!",
+        desc: "Welcome to Comsnets Bali 2023, the premier event that brings together experts, researchers, and enthusiasts from the world of communication, networks, and security. We're thrilled to have you join us on this exciting journey of discovery, innovation, and collaboration. Get ready to be a part of an incredible community and explore the latest trends, ideas, and breakthroughs in the field. Let's make this Gatheringinbali a memorable experience for all!",
     },
 ];
 
@@ -330,7 +330,7 @@ export const pricing = [
         price: "9.000.000",
         currency: "Rp",
         frequency: "/person",
-        description: "some short description for product",
+        description: "All-inclusive package with hotel stay, meals, and activities.",
         features: ["Accommodation at Hotel Venue", "Full day meeting package", "Merchandise", "Certificate of Attendance", "Coaching and Mentoring Session", "Airport Transfer", "City Tour"],
         cta: "Get Started",
         mostPopular: true,
@@ -340,7 +340,7 @@ export const pricing = [
         price: "6.000.000",
         currency: "Rp",
         frequency: "/Person",
-        description: "some short description for product",
+        description: "Access to all activities and meals (excl. hotel stay).",
         features: ["Full day meeting package", "Merchandise", "Certificate of Attendance", "Coaching and Mentoring Session", "Airport Transfer", "City Tour"],
         cta: "Get Started",
         mostPopular: false,
@@ -350,7 +350,7 @@ export const pricing = [
         price: "2.500.000",
         currency: "Rp",
         frequency: "/Person",
-        description: "some short description for product",
+        description: "Have a limited time to attend ? Access to activities for a single day.",
         features: ["Full day meeting package", "Merchandise", "Certificate of Attendance", "Coaching and Mentoring Session"],
         cta: "Get Started",
         mostPopular: false,
