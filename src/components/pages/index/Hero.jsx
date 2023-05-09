@@ -11,18 +11,21 @@ const Hero = () => {
                             <h2 className="text-lg my-2 lg:text-lg text-white opacity-75 font-bold uppercase" key={data.title}>
                                 {data.featured}
                             </h2>
-                            <h1 className="text-4xl my-2 lg:text-6xl text-white font-bold uppercase" key={data.title}>
+                            <h1 className="text-2xl my-2 lg:text-4xl text-white font-bold uppercase" key={data.title}>
                                 {data.title}
                             </h1>
+                            <h2 className="text-lg my-2 lg:text-lg text-white opacity-75 font-bold uppercase" key={data.title}>
+                                8 - 10 November 2023
+                            </h2>
                             <p className="text-white my-3">{data.desc}</p>
                         </>
                     ))}
 
                     <div className="flex flex-col md:flex-row justify-center item-center text-xl">
-                        <a href="/" className="py-2 px-6 bg-indigo-600 text-white rounded-md m-2">
-                            Learn More
+                        <a target={"_blank"} href="https://shop.gatheringinbali.com/events/detail/12" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
+                            Buy Ticket
                         </a>
-                        <a target={"_blank"} href="https://shop.gatheringinbali.com" className="py-2 px-6 border border-white text-white rounded-md m-2 mb-20 sm:mb-0">
+                        <a target={"_blank"} href="https://shop.gatheringinbali.com" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
                             Register Now
                         </a>
                     </div>

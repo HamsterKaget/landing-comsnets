@@ -25,7 +25,7 @@ const EventDetail = () => {
                                             </div>
                                             <div className="text">
                                                 <p className="text-black dark:text-white font-bold text-xl">{data.title1}</p>
-                                                <p className="text-slate-500">{data.desc1}</p>
+                                                <p className="text-slate-500 text-lg">{data.desc1}</p>
                                             </div>
                                         </div>
 
@@ -35,7 +35,7 @@ const EventDetail = () => {
                                             </div>
                                             <div className="text">
                                                 <p className="text-black dark:text-white font-bold text-xl">{data.title2}</p>
-                                                <p className="text-slate-500">{data.desc2}</p>
+                                                <p className="text-slate-500 text-lg">{data.desc2}</p>
                                             </div>
                                         </div>
 
@@ -45,7 +45,14 @@ const EventDetail = () => {
                                             </div>
                                             <div className="text">
                                                 <p className="text-black dark:text-white font-bold text-xl">{data.title3}</p>
-                                                <p className="text-slate-500">{data.desc3}</p>
+                                                <p className="text-slate-500">
+                                                    Click here to
+                                                    <a href="#" className="text-indigo-600">
+                                                        {" "}
+                                                        learn more
+                                                    </a>
+                                                </p>
+                                                {/* <p className="text-slate-500">{data.desc3}</p> */}
                                             </div>
                                         </div>
                                     </>

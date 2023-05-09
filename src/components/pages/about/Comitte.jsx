@@ -16,7 +16,7 @@ const Committee = () => {
                 <div className="container h-auto mx-auto p-4">
                     <div className="my-8">
                         <div className="md:w-8/12 mx-auto text-center">
-                            <h6 className="text-indigo-600 font-bold text-base">comsnets</h6>
+                            {/* <h6 className="text-indigo-600 font-bold text-base">comsnets</h6> */}
                             <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white">About Comsnets</h1>
                             <p className="text-slate-500 mt-2 mb-6">
                                 COMSNETS is a premier international conference dedicated to advances in Networking and Communications Systems. The conference is a yearly event for a world-class gathering of researchers from academia and
@@ -36,7 +36,7 @@ const Committee = () => {
                 <div className="container h-auto mx-auto p-4">
                     <div className="my-8">
                         <div className="md:w-8/12 mx-auto text-center">
-                            <h6 className="text-indigo-600 font-bold text-base">Committee</h6>
+                            {/* <h6 className="text-indigo-600 font-bold text-base">Committee</h6> */}
                             <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white">Meet Comsnets Committee</h1>
                             <p className="text-slate-500 mt-2 mb-6">
                                 We're excited to welcome a diverse lineup of expert speakers to COMSNETS 2023. Our speakers come from a variety of backgrounds and industries, bringing unique perspectives and experiences to the conference.

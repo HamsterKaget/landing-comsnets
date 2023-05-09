@@ -11,7 +11,7 @@ const Package = (props) => {
                         <div className="md:w-8/12 mx-auto text-center">
                             {/* <h6 className="text-indigo-600 font-bold text-base">Pricing</h6> */}
                             <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white">Package Pricing</h1>
-                            <p className="text-slate-500 mt-2 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda quaerat, eligendi sunt ratione ipsum.</p>
+                            <p className="text-slate-500 mt-2 mb-6">Find the perfect plan to suit your business needs.</p>
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@ const Package = (props) => {
                                 </ul>
 
                                 <a
-                                    href="/#"
+                                    href={plan.href}
                                     className={`mt-8 block  px-6 py-4 text-sm font-semibold leading-4 text-center rounded-lg 
                                     ${plan.mostPopular ? "bg-indigo-500 hover:bg-indigo-600 shadow-md text-white" : "text-indigo-700 bg-indigo-50 hover:bg-indigo-100"}
                                 `}

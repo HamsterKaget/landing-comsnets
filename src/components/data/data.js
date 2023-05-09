@@ -61,7 +61,7 @@ export const navigation = [
 
 export const hero = [
     {
-        title: "Comsnets Bali 2023",
+        title: "Comsnets Workshop - Bali 2023",
         featured: "Gathering In Bali Present",
         // subtitle: " Empowering the Future of Communication Networks and Services",
         desc: "Welcome to Comsnets Bali 2023, the premier event that brings together experts, researchers, and enthusiasts from the world of communication, networks, and security. We're thrilled to have you join us on this exciting journey of discovery, innovation, and collaboration. Get ready to be a part of an incredible community and explore the latest trends, ideas, and breakthroughs in the field. Let's make this Gatheringinbali a memorable experience for all!",
@@ -70,7 +70,7 @@ export const hero = [
 
 export const timer = [
     {
-        date: "May 16, 2023, 10:00:00",
+        date: "November 8, 2023, 09:00:00",
     },
 ];
 
@@ -137,13 +137,13 @@ export const eventDetails = [
     {
         section: "Event Information",
         title: "Event Information",
-        // desc1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perspiciatis amet omnis consectetur laudantium alias",
+        desc: "Get The Detailed Information About The Event",
         title1: "Date & Time",
-        desc1: " Gathering and Workshop with Comsnets in Bali 2023 will be held in November, However The Tickets will be available for purchase starting June 1st. Get your tickets early and prepare to join us for an exciting and informative conference",
+        desc1: "8th - 10th November 2023",
         title2: "Location",
-        desc2: "Gathering and Workshop with Comsnets in Bali 2023 will be held in Bali, providing an unforgettable experience for conference participants to explore the beauty of the island while learning and discussing the latest developments in the field of communication systems and networks.",
-        title3: "Requirements",
-        desc3: "To attend Gathering and Workshop with Comsnets in Bali 2023, participants will need to purchase a ticket through our official website. We will have a variety of ticketing options available to suit different needs and budgets. Additionally, due to the ongoing COVID-19 pandemic,",
+        desc2: "Bali, Indonesia",
+        title3: "Visa Requirements",
+        // desc3: "To attend Gathering and Workshop with Comsnets in Bali 2023, participants will need to purchase a ticket through our official website. We will have a variety of ticketing options available to suit different needs and budgets. Additionally, due to the ongoing COVID-19 pandemic,",
     },
 ];
 
@@ -326,23 +326,25 @@ export const committee = [
 
 export const pricing = [
     {
-        title: "Full Board",
+        title: "FullBoard",
         price: "9.000.000",
         currency: "Rp",
         frequency: "/person",
         description: "All-inclusive package with hotel stay, meals, and activities.",
         features: ["Accommodation at Hotel Venue", "Full day meeting package", "Merchandise", "Certificate of Attendance", "Coaching and Mentoring Session", "Airport Transfer", "City Tour"],
         cta: "Get Started",
+        href: "https://shop.gatheringinbali.com/events/detail/12",
         mostPopular: true,
     },
     {
-        title: "Full Day Pass",
+        title: "FullDay Pass",
         price: "6.000.000",
         currency: "Rp",
         frequency: "/Person",
         description: "Access to all activities and meals (excl. hotel stay).",
-        features: ["Full day meeting package", "Merchandise", "Certificate of Attendance", "Coaching and Mentoring Session", "Airport Transfer", "City Tour"],
+        features: ["Full day meeting package", "Merchandise", "Certificate of Attendance", "Coaching and Mentoring Session", "City Tour"],
         cta: "Get Started",
+        href: "https://shop.gatheringinbali.com/events/detail/13",
         mostPopular: false,
     },
     {
@@ -353,6 +355,7 @@ export const pricing = [
         description: "Have a limited time to attend ? Access to activities for a single day.",
         features: ["Full day meeting package", "Merchandise", "Certificate of Attendance", "Coaching and Mentoring Session"],
         cta: "Get Started",
+        href: "https://shop.gatheringinbali.com/events/detail/14",
         mostPopular: false,
     },
     // {

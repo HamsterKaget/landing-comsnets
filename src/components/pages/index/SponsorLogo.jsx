@@ -10,7 +10,7 @@ const SponsorLogo = () => {
                     <div className="md:w-8/12 mx-auto text-center">
                         {/* <h6 className="text-indigo-600 font-bold text-base">Sponsor & Partnership</h6> */}
                         <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white">Our Sponsor</h1>
-                        <p className="text-slate-500 mt-2 mb-16">We are grateful for the support of our sponsors & partner, who help us to innovate and grow.</p>
+                        <p className="text-slate-500 mt-2 mb-16">We are grateful for the support of our sponsors, who help us to innovate and grow.</p>
                     </div>
                 </div>
                 <div className="my-8">
