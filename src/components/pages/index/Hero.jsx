@@ -11,23 +11,29 @@ const Hero = () => {
                             <h2 className="text-lg my-2 lg:text-lg text-white opacity-75 font-bold uppercase" key={data.title}>
                                 {data.featured}
                             </h2>
-                            <h1 className="text-2xl my-2 lg:text-4xl text-white font-bold uppercase" key={data.title}>
+                            <h1 className="text-4xl my-2 lg:text-5xl text-white font-bold uppercase" key={data.title}>
                                 {data.title}
                             </h1>
                             <h2 className="text-lg my-2 lg:text-lg text-white opacity-75 font-bold uppercase" key={data.title}>
                                 8 - 10 November 2023
                             </h2>
-                            <p className="text-white my-3">{data.desc}</p>
+                            {/* <hr /> */}
+                            <h1 className="text-xl my-2.5 lg:text-3xl text-slate-50 opacity-90 font-bold uppercase w-fit py-2.5 px-8 mx-auto" key={data.title}>
+                                Collaborate, Innovate, Transform:
+                                <br />
+                                Together towards Digital Excellence.
+                            </h1>
+                            {/* <p className="text-white my-3">{data.desc}</p> */}
                         </>
                     ))}
 
-                    <div className="flex flex-col md:flex-row justify-center item-center text-xl">
-                        <a target={"_blank"} href="https://shop.gatheringinbali.com/events/detail/12" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
+                    <div className="flex flex-col justify-center item-center text-xl w-10/12 md:w-6/12 mx-auto">
+                        <a target={"_blank"} href="https://shop.gatheringinbali.com/events/detail/comsnets-bali-2023-fullboard-package" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
                             Buy Ticket
                         </a>
-                        <a target={"_blank"} href="https://shop.gatheringinbali.com" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
+                        {/* <a target={"_blank"} href="https://shop.gatheringinbali.com" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
                             Register Now
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>

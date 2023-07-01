@@ -1,13 +1,26 @@
 import React from "react";
 import { MdDateRange, MdShareLocation, MdAssignment } from "react-icons/md";
 import { eventDetails } from "../../data/data";
+import { Link } from "react-router-dom";
 
 const EventDetail = () => {
     return (
         <>
             <section id="eventDetail" className=" bg-white dark:bg-slate-900 h-auto w-full">
                 <div className="flex flex-wrap">
-                    <div className="lg:w-6/12 w-full col-img"></div>
+                    {/* <div className="lg:w-6/12 w-full col-img"></div> */}
+                    <div className="lg:w-6/12 w-full">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15770.853325660713!2d115.144855!3d-8.812979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244d47a29a8b7%3A0x8e70c2207d497c91!2sRenaissance%20Bali%20Uluwatu%20Resort%20%26%20Spa!5e0!3m2!1sen!2sid!4v1683925795062!5m2!1sen!2sid"
+                            // width="600"
+                            // height="450"
+                            // style="border:0;"
+                            // allowfullscreen=""
+                            // loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            className="w-full h-full"
+                        ></iframe>
+                    </div>
                     <div className="lg:w-6/12 py-5">
                         <div className="container">
                             <div className="md:w-10/12 mx-auto text-left mt-4">
@@ -35,7 +48,9 @@ const EventDetail = () => {
                                             </div>
                                             <div className="text">
                                                 <p className="text-black dark:text-white font-bold text-xl">{data.title2}</p>
-                                                <p className="text-slate-500 text-lg">{data.desc2}</p>
+                                                <p className="text-slate-500 text-lg">
+                                                    <a href="https://www.marriott.com/en-us/hotels/dpsuw-renaissance-bali-uluwatu-resort-and-spa/overview/">{data.desc2}</a>
+                                                </p>
                                             </div>
                                         </div>
 
@@ -47,10 +62,9 @@ const EventDetail = () => {
                                                 <p className="text-black dark:text-white font-bold text-xl">{data.title3}</p>
                                                 <p className="text-slate-500">
                                                     Click here to
-                                                    <a href="#" className="text-indigo-600">
-                                                        {" "}
-                                                        learn more
-                                                    </a>
+                                                    <Link to="/voa">
+                                                        <a className="text-indigo-600"> learn more</a>
+                                                    </Link>
                                                 </p>
                                                 {/* <p className="text-slate-500">{data.desc3}</p> */}
                                             </div>

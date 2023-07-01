@@ -46,7 +46,7 @@ const Footer = () => {
                             </ul> */}
                         </div>
                         <div className="mb-2 text-slate-600 dark:text-slate-200">
-                            <h4 className="my-2 text-lg text-center text-slate-800 dark:text-white font-semibold">Usefull Links</h4>
+                            <h4 className="my-2 text-lg text-center text-slate-800 dark:text-white font-semibold">Useful Links</h4>
                             <ul>
                                 {footer.map((items) =>
                                     items.usefullLink.map((item) => (

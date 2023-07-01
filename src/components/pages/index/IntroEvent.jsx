@@ -2,6 +2,10 @@ import React from "react";
 import { introEvents } from "../../data/data";
 
 const IntroEvent = () => {
+    function renderHTML(html) {
+        return React.createElement("p", { dangerouslySetInnerHTML: { __html: html } });
+    }
+
     return (
         <>
             <section id="intro">
@@ -17,8 +21,8 @@ const IntroEvent = () => {
                             <div className="flex">
                                 <div className="md:w-10/12 mx-auto text-left text-slate-500 dark:text-slate-400">
                                     <p className="event-description mt-12 my-8 text-center">
-                                        {data.desc1}
-                                        <br /> <br />
+                                        {renderHTML(data.desc1)}
+                                        <br />
                                         {data.desc2}
                                         <br /> <br />
                                         {data.desc3}

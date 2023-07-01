@@ -4,13 +4,15 @@ import { Link } from "react-router-dom";
 const Contact = () => {
     return (
         <>
-            <section id="contact" className="bg-slate-50 dark:bg-slate-800 ">
+            <section id="contact" className="bg-slate-50 dark:bg-slate-800 w-full rounded-lg">
                 <div className="container h-auto mx-auto p-4 pb-16">
                     <div className="my-8">
                         <div className="md:w-8/12 mx-auto text-center">
                             {/* <h6 className="text-indigo-600 font-bold text-base">Contact</h6> */}
                             <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white">Get in Touch With Us !</h1>
-                            <p className="text-slate-500 mt-2 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda quaerat, eligendi sunt ratione ipsum.</p>
+                            <p className="text-slate-500 mt-2 mb-6">
+                                We encourage you to reach out to us and share any inquiries you may have about the event. We look forward to assisting you and ensuring that your experience with us is exceptional from start to finish.
+                            </p>
                         </div>
                     </div>
                     <form action="" method="get" className="w-[90%] mx-auto grid gap-3 justify-center lg:grid-cols-2 grid-cols-1 dark:text-white">
