@@ -4,6 +4,10 @@ export const navigation = [
     to: "/",
   },
   {
+    name: "Competition",
+    to: "/competition",
+  },
+  {
     name: "Sponsor",
     to: "#",
     subMenu: [

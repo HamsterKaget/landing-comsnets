@@ -14,7 +14,7 @@ const Navbar = () => {
                 <div className="lg:flex container mx-auto items-center justify-between py-2 lg:px-10 px-7">
                     <div className="text-xl cursor-pointer flex items-center justify-between dark:text-white">
                         <Link to={"/home"}>
-                            <img src="image/favicon.png" alt="" className="h-8 w-8 mx-4 inline-block" />
+                            <img src="favicon.png" alt="" className="h-8 w-8 mx-4 inline-block" />
                             gatheringinbali
                         </Link>
                         <div onClick={() => setOpen(!open)} className="text-3xl my-auto lg:hidden">

@@ -19,6 +19,7 @@ import PrivacyPolice from "./components/pages/PrivacyPolice";
 import Disclaimer from "./components/pages/Disclaimer";
 import Comsnets from "./components/pages/AboutComsnet";
 import Voa from "./components/pages/Voa";
+import Competition from "./components/pages/Competition";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,6 +29,7 @@ root.render(
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
+                <Route path="/competition" element={<Competition />} />
                 <Route path="/soon" element={<Soon />} />
                 <Route path="/contact" element={<ContactUs />} />
                 <Route path="/privacy-policy" element={<PrivacyPolice />} />
