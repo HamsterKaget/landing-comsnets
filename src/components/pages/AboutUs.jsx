@@ -76,12 +76,9 @@ class Home extends React.Component {
               <section id="secretary">
                 <div className="container h-auto mx-auto p-4">
                   <div className="my-8">
-                    <div className="md:w-8/12 mx-auto text-center">
+                    <div className="md:w-10/12 mx-auto text-center">
                       {/* <h6 className="text-indigo-600 font-bold text-base">Committee</h6> */}
                       <h1 className="uppercase font-bold text-2xl md:text-4xl dark:text-white">Our Secretary Teams !</h1>
-                      {/* <p className="text-slate-500 mt-2 mb-6">
-                                                Meet our talented and diverse team, driven by innovation and excellence. Together, we deliver exceptional solutions and make a positive impact in the industry.
-                                            </p> */}
                     </div>
                   </div>
                   {/* <div className="my-8 w-[95%] mx-auto grid grid-cols-4"> */}

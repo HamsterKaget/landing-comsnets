@@ -1,0 +1,25 @@
+/* Add hover effect styles */
+.hoverEffect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #4f46e5; /* Replace with your desired background color */
+    transition: width 0.3s ease-out;
+}
+
+.hoverEffect:hover::before {
+    width: 100%;
+}
+
+/* Add overlay styles for preventing mouse events on pseudo-element */
+.hoverOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}

@@ -367,7 +367,7 @@ export const ourTeams = [
     image: "./image/DanaPersada.jpg",
   },
   {
-    name: "Person",
+    name: "Erry Wardhana",
     job: "Member of Executive Committe",
     corp: "Indonesia",
     link: {
@@ -379,7 +379,19 @@ export const ourTeams = [
     image: "./image/person.png",
   },
   {
-    name: "Person",
+    name: "Ervan Yudi Widyarto",
+    job: "Member of Executive Committe",
+    corp: "Indonesia",
+    link: {
+      instagram: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+    // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
+    image: "./image/about-us/yudi.jpg",
+  },
+  {
+    name: "Ratih Soemaprawiro",
     job: "Member of Executive Committe",
     corp: "Indonesia",
     link: {
@@ -391,7 +403,7 @@ export const ourTeams = [
     image: "./image/person.png",
   },
   {
-    name: "Person",
+    name: "Rina Puspita",
     job: "Member of Executive Committe",
     corp: "Indonesia",
     link: {
@@ -416,7 +428,7 @@ export const secretary = [
     },
     // description:
     //     "Welcome to a unique educational event that is presented in the distinctive ambiance of Bali, where participants will meet experts and enthusiasts in the field of ICT, computer science, digital expertise, industrialists, academia, and social media activists while discussing current issues regarding cyber security in human life.",
-    image: "./image/person.png",
+    image: "./image/about-us/icham.png",
   },
   {
     name: "Ricky Prastyo",
@@ -428,7 +440,7 @@ export const secretary = [
       linkedin: "#",
     },
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/person.png",
+    image: "./image/about-us/ricky.png",
   },
   {
     name: "Radja Ramdani",
@@ -440,7 +452,7 @@ export const secretary = [
       linkedin: "#",
     },
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/person.png",
+    image: "./image/about-us/radja.png",
   },
   {
     name: "Kiki Yuliana Anggian",
@@ -452,7 +464,7 @@ export const secretary = [
       linkedin: "#",
     },
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/person.png",
+    image: "./image/about-us/kiki.png",
   },
 ];
 
@@ -468,7 +480,7 @@ export const pricing = [
     features: ["Accommodation at Hotel Venue", "Full day meeting package", "Merchandise", "Certificate of Attendance", "Coaching and Mentoring Session", "Airport Transfer"],
     cta: "Buy Now",
     href: "https://shop.gatheringinbali.com/events/detail/comsnets-bali-2023-fullboard-package",
-    mostPopular: true,
+    mostPopular: false,
   },
   {
     title: "Fullday Pass",
@@ -481,7 +493,7 @@ export const pricing = [
     features: ["Full day meeting package", "Merchandise", "Certificate of Attendance", "Coaching and Mentoring Session"],
     cta: "Buy Now",
     href: "https://shop.gatheringinbali.com/events/detail/comsnets-bali-2023-fullday-package",
-    mostPopular: false,
+    mostPopular: true,
   },
   {
     title: "Daily Pass",

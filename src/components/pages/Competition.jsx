@@ -5,6 +5,9 @@ import Countdown from "./Competition/Countdown";
 import IntroEvent from "./Competition/IntroEvent";
 import Topic from "./Competition/Topic";
 import EventDetail from "./Competition/EventDetail";
+import TeamCompotition from "./Competition/TeamComposition";
+import Guide from "./Competition/Guide";
+import IntroBaru from "./Competition/IntroBaru";
 
 
 class Competition extends React.Component {
@@ -14,8 +17,11 @@ class Competition extends React.Component {
                 <Layout>
                     <Hero />
                     <Countdown />
-                    <IntroEvent />
-                    <Topic />
+                    <IntroBaru />
+                    {/* <IntroEvent />
+                    <Topic /> */}
+                    <TeamCompotition />
+                    <Guide />
                     <EventDetail />
                 </Layout>
             </>

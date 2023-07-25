@@ -17,10 +17,13 @@ class Partnership extends React.Component {
                             <div className="my-10 flex space-y-4 flex-col lg:mx-12 mx-4 text-center">
                                 {/* <h1 className="text-3xl text-center dark:text-white uppercase">Coming Soon</h1> */}
                                 <div className="mx-auto w-full h-full">
+                                    <img src="/image/sponsor-2.png" alt="become-partner" className="w-full h-auto rounded-lg shadow-lg" />
+                                </div>
+                                <div className="mx-auto w-full h-full">
                                     <img src="/image/become-sponsor.png" alt="become-partner" className="w-full h-auto rounded-lg shadow-lg" />
                                 </div>
                                 <div className="mx-auto w-full h-full">
-                                    <img src="/image/sponsor-2.png" alt="become-partner" className="w-full h-auto rounded-lg shadow-lg" />
+                                    <img src="/image/sponsor_new.png" alt="become-partner" className="w-full h-auto rounded-lg shadow-lg" />
                                 </div>
                             </div>
                         </div>

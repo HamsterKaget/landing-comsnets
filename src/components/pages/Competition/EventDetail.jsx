@@ -61,10 +61,11 @@ const EventDetail = () => {
                                             <div className="text">
                                                 <p className="text-black dark:text-white font-bold text-xl">{data.title3}</p>
                                                 <p className="text-slate-500">
-                                                    Click here to
-                                                    <Link to="/voa">
-                                                        <a className="text-indigo-600"> learn more</a>
+                                                    Witness the top 10 finalists –
+                                                    <Link to="/competition#guide">
+                                                        <a className="text-indigo-600"> Click here </a>
                                                     </Link>
+                                                    for groundbreaking innovation!
                                                 </p>
                                                 {/* <p className="text-slate-500">{data.desc3}</p> */}
                                             </div>
