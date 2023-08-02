@@ -158,7 +158,7 @@ export const eventDetails = [
     title1: "Date & Time",
     desc1: "8th - 10th November 2023, 9 AM - 5 PM GMT +7",
     title2: "Location",
-    desc2: "Renaissance Bali Uluwatu Resort & Spa, Bali, Indonesia",
+    desc2: "Renaissance Uluwatu Resort & Spa, Bali, Indonesia",
     title3: "Visa Requirements",
     // desc3: "To attend Gathering and Workshop with Comsnets in Bali 2023, participants will need to purchase a ticket through our official website. We will have a variety of ticketing options available to suit different needs and budgets. Additionally, due to the ongoing COVID-19 pandemic,",
   },
@@ -178,15 +178,15 @@ export const topic = [
 
 export const topicImage = [
   {
-    src: "/slider/2.jpg",
+    src: "/slider/ScheduleBaruBanget/1.png",
     alt: "cyber",
   },
   {
-    src: "/slider/1.jpg",
+    src: "/slider/ScheduleBaruBanget/2.png",
     alt: "cyber",
   },
   {
-    src: "/slider/3.jpg",
+    src: "/slider/ScheduleBaruBanget/3.png",
     alt: "cyber",
   },
 ];
@@ -292,8 +292,8 @@ export const speakers = [
 export const committee = [
   {
     name: "Uday Desai",
-    job: "Indian Institute of Technology Hyderabad",
-    corp: "India",
+    job: "Indian Institute of Technology (IIT)",
+    corp: "Hyderabad, India",
     link: {
       instagram: "#",
       facebook: "#",
@@ -304,7 +304,7 @@ export const committee = [
   },
   {
     name: "Giridhar Mandyam",
-    job: "Qualcomm",
+    job: "Qualcomm Technologies, Inc",
     corp: "USA",
     link: {
       instagram: "#",
@@ -316,8 +316,8 @@ export const committee = [
   },
   {
     name: "Rajeev Shorey",
-    job: "UQIDAR, Indian Institute of Technology Delhi",
-    corp: "India",
+    job: "UQIDAR, Indian Institute of Technology",
+    corp: "Delhi, India",
     link: {
       instagram: "#",
       facebook: "#",
@@ -328,8 +328,8 @@ export const committee = [
   },
   {
     name: "G. Venkatesh",
-    job: "Sasken",
-    corp: "India",
+    job: "Sasken ComTech, Ltd",
+    corp: "Bangalore, India",
     link: {
       instagram: "#",
       facebook: "#",
@@ -338,6 +338,54 @@ export const committee = [
     description: "",
     image: "./image/g_venkatesh.jpg",
   },
+  {
+    name: "Huzur Saran",
+    job: "Indian Institute of Technology (IIT)",
+    corp: "Delhi, India",
+    link: {
+      instagram: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+    description: "",
+    image: "./image/about-us/huzur-saran.jpg",
+  },
+  {
+    name: "Archan Misra",
+    job: "Singapore Management University (SMU)",
+    corp: "Singapore",
+    link: {
+      instagram: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+    description: "",
+    image: "./image/about-us/archan.jpeg",
+  },
+  {
+    name: "Jeffrey Tew",
+    job: "TATA Consultancy Services (TCS)",
+    corp: "USA",
+    link: {
+      instagram: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+    description: "",
+    image: "./image/about-us/jefrey.jpeg",
+  },
+  // {
+  //   name: "Ranjita Bhagwan",
+  //   job: "Bangalore",
+  //   corp: "India",
+  //   link: {
+  //     instagram: "#",
+  //     facebook: "#",
+  //     linkedin: "#",
+  //   },
+  //   description: "",
+  //   image: "./image/about-us/ranjita.jpeg",
+  // },
 ];
 
 export const ourTeams = [
@@ -352,7 +400,7 @@ export const ourTeams = [
     },
     // description:
     //     "Welcome to a unique educational event that is presented in the distinctive ambiance of Bali, where participants will meet experts and enthusiasts in the field of ICT, computer science, digital expertise, industrialists, academia, and social media activists while discussing current issues regarding cyber security in human life.",
-    image: "./image/person.png",
+    image: "./image/about-us/bu-ade.jpg",
   },
   {
     name: "Dana Pesada",
@@ -376,7 +424,7 @@ export const ourTeams = [
       linkedin: "#",
     },
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/person.png",
+    image: "./image/about-us/pa-erry.jpg",
   },
   {
     name: "Ervan Yudi Widyarto",
@@ -400,7 +448,7 @@ export const ourTeams = [
       linkedin: "#",
     },
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/person.png",
+    image: "./image/about-us/bu-ratih.jpg",
   },
   {
     name: "Rina Puspita",
@@ -412,7 +460,7 @@ export const ourTeams = [
       linkedin: "#",
     },
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/person.png",
+    image: "./image/about-us/rina-puspita.jpg",
   },
 ];
 

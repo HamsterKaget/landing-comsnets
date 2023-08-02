@@ -80,7 +80,7 @@ export const partner = [
   {
     name: "Tambang Karya Energi",
     category: "Mining Contractor",
-    logo: "/partner/",
+    logo: "/partner/chip.png",
     cta: "#",
     sosmed: {
       instagram: null,

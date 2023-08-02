@@ -9,23 +9,22 @@ import TeamCompotition from "./Competition/TeamComposition";
 import Guide from "./Competition/Guide";
 import IntroBaru from "./Competition/IntroBaru";
 
-
 class Competition extends React.Component {
-    render() {
-        return (
-            <>
-                <Layout>
-                    <Hero />
-                    <Countdown />
-                    <IntroBaru />
-                    {/* <IntroEvent />
+  render() {
+    return (
+      <>
+        <Layout>
+          <Hero />
+          <Countdown />
+          <IntroBaru />
+          {/* <IntroEvent />
                     <Topic /> */}
-                    <TeamCompotition />
-                    <Guide />
-                    <EventDetail />
-                </Layout>
-            </>
-        );
-    }
+          {/* <TeamCompotition /> */}
+          <Guide />
+          <EventDetail />
+        </Layout>
+      </>
+    );
+  }
 }
 export default Competition;
