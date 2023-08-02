@@ -374,6 +374,18 @@ export const committee = [
     description: "",
     image: "./image/about-us/jefrey.jpeg",
   },
+  {
+    name: "Dr. Tulika Pandey",
+    job: "Senior Director Ministry of Electronics & Information Technology",
+    corp: "India",
+    link: {
+      instagram: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+    description: "",
+    image: "./image/about-us/drtulika.jpeg",
+  },
   // {
   //   name: "Ranjita Bhagwan",
   //   job: "Bangalore",
