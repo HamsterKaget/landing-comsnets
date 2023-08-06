@@ -178,15 +178,19 @@ export const topic = [
 
 export const topicImage = [
   {
-    src: "/slider/ScheduleBaruBanget/1.png",
+    src: "/slider/Schedule/2.png",
     alt: "cyber",
   },
   {
-    src: "/slider/ScheduleBaruBanget/2.png",
+    src: "/slider/Schedule/4.png",
     alt: "cyber",
   },
   {
-    src: "/slider/ScheduleBaruBanget/3.png",
+    src: "/slider/Schedule/5.png",
+    alt: "cyber",
+  },
+  {
+    src: "/slider/Schedule/7.png",
     alt: "cyber",
   },
 ];
@@ -384,7 +388,7 @@ export const committee = [
       linkedin: "#",
     },
     description: "",
-    image: "./image/about-us/drtulika.jpeg",
+    image: "./image/about-us/tulika.jpg",
   },
   // {
   //   name: "Ranjita Bhagwan",
