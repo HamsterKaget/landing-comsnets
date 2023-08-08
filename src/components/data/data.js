@@ -178,19 +178,15 @@ export const topic = [
 
 export const topicImage = [
   {
+    src: "/slider/Schedule/1.png",
+    alt: "cyber",
+  },
+  {
     src: "/slider/Schedule/2.png",
     alt: "cyber",
   },
   {
-    src: "/slider/Schedule/4.png",
-    alt: "cyber",
-  },
-  {
-    src: "/slider/Schedule/5.png",
-    alt: "cyber",
-  },
-  {
-    src: "/slider/Schedule/7.png",
+    src: "/slider/Schedule/3.png",
     alt: "cyber",
   },
 ];
