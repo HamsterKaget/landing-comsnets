@@ -316,7 +316,7 @@ export const committee = [
   },
   {
     name: "Rajeev Shorey",
-    job: "UQIDAR, Indian Institute of Technology",
+    job: "Indian Institute of Technology",
     corp: "Delhi, India",
     link: {
       instagram: "#",

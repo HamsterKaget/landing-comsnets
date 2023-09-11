@@ -80,8 +80,79 @@ export const partner = [
   {
     name: "Tambang Karya Energi",
     category: "Mining Contractor",
-    logo: "/partner/chip.png",
+    logo: "/partner/tambang_karya_energi.jpeg",
     cta: "#",
+    sosmed: {
+      instagram: null,
+      whatsapp: null,
+      facebook: null,
+      linkedin: null,
+      youtube: null,
+    },
+  },
+  {
+    name: "Digital Enterprices Indonesia",
+    category: "IT Project Management",
+    logo: "/partner/dei.png",
+    cta: "#",
+    sosmed: {
+      instagram: null,
+      whatsapp: null,
+      facebook: null,
+      linkedin: null,
+      youtube: null,
+    },
+  },
+];
+
+export const partnerStrategic = [
+  {
+    name: "Kadin Indonesia",
+    category: "Indonesian Chamber of Commerce and Industry",
+    logo: "/partner/kadin-logo.webp",
+    cta: "https://kadin.id",
+    sosmed: {
+      instagram: null,
+      whatsapp: null,
+      facebook: null,
+      linkedin: null,
+      youtube: null,
+    },
+  },
+  {
+    name: "Comsnets",
+    category: "International Conference on Communication Systems & Networks",
+    logo: "/partner/comsnets.png",
+    cta: "https://www.comsnets.org",
+    sosmed: {
+      instagram: null,
+      whatsapp: null,
+      facebook: null,
+      linkedin: null,
+      youtube: null,
+    },
+  },
+  {
+    name: "Mastel Indonesia",
+    category: "Indonesian Telematics Organization",
+    logo: "/partner/mastel.png",
+    cta: "https://mastel.id",
+    sosmed: {
+      instagram: null,
+      whatsapp: null,
+      facebook: null,
+      linkedin: null,
+      youtube: null,
+    },
+  },
+];
+
+export const partnerMarketing = [
+  {
+    name: "Krona",
+    category: "Indonesian Digital Marketing Agency",
+    logo: "/partner/krona.webp",
+    cta: "https://www.krona.co.id",
     sosmed: {
       instagram: null,
       whatsapp: null,
