@@ -25,7 +25,7 @@ const Footer = () => {
               <br />
               Indonesia <br /> <br />
               <span className="dark:text-slate-200">
-                <strong>Phone:</strong> +62 812 675 60 600
+                <strong>Phone:</strong> +62 812 675 60 600 - Ms.Kiki
               </span>{" "}
               <br />
               <span className="dark:text-slate-200">

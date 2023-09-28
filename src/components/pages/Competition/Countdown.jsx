@@ -53,7 +53,7 @@ const Countdown = () => {
         <div className="h-auto bg-transparent text-center w-10/12 md:w-8/12 -mt-28 mx-auto">
           <div className="w-10/12 md:w-8/12 bg-white dark:bg-slate-800 border-b-8 border-indigo-500 rounded-lg z-10 absolute shadow-card2">
             <div className="w-11/12 mx-auto py-6 border-b border-gray-300">
-              <h3 class="text-lg uppercase font-bold text-center text-gray-500 dark:text-gray-400 sm:text-lg -mb-2">Phase 1 Announcement Will be held In</h3>
+              <h3 class="text-lg uppercase font-bold text-center text-gray-500 dark:text-gray-400 sm:text-lg -mb-2">Phase 2 - Paper Submission Closed in</h3>
 
               {/* <ol class="flex items-center w-full text-sm font-medium text-center text-gray-500 dark:text-gray-400 sm:text-base">
                                 <li class="flex md:w-full items-center text-blue-600 dark:text-blue-500 sm:after:content-[''] after:w-full after:h-1 after:border-b after:border-gray-200 after:border-1 after:hidden sm:after:inline-block after:mx-6 xl:after:mx-10 dark:after:border-gray-700">

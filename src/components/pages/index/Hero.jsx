@@ -19,6 +19,8 @@ const Hero = () => {
               </h2>
               <h2 className="text-lg my-2 lg:text-lg text-white opacity-75 font-bold uppercase" key={data.title}>
                 8 - 10 November 2023
+                <br />
+                Renaissance Resort Uluwatu, Bali
               </h2>
               {/* <hr /> */}
               <h1 className="text-xl my-2.5 lg:text-3xl text-slate-50 opacity-90 font-bold uppercase w-fit py-2.5 px-8 mx-auto" key={data.title}>
@@ -30,13 +32,13 @@ const Hero = () => {
             </>
           ))}
 
-          <div className="flex flex-col justify-center item-center text-xl w-10/12 md:w-6/12 mx-auto">
-            <a target={"_blank"} href="https://shop.gatheringinbali.com/events/detail/comsnets-bali-2023-fullboard-package" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
+          <div className="flex justify-center item-center text-xl w-10/12 md:w-6/12 mx-auto">
+            <a target={"_blank"} href="https://shop.gatheringinbali.com/events/detail/comsnets-bali-2023-fullboard-package" className="py-2 px-10 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
               Buy Ticket
             </a>
-            {/* <a target={"_blank"} href="https://shop.gatheringinbali.com" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
-                            Register Now
-                        </a> */}
+            <a target={"_blank"} href="/file/brochure.pdf" className="py-2 px-6 bg-transparent border-2 border-white-600 text-white rounded-md m-2">
+              Get Brochure
+            </a>
           </div>
         </div>
       </div>

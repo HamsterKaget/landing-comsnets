@@ -852,9 +852,9 @@ export const subFooter = [
     youtube: "https://www.youtube.com/@gathering.inbali/about",
     instagram: "https://instagram.com/gathering.inbali",
     facebook: "https://www.facebook.com/gathering.inbali",
-    twitter: "#",
+    twitter: "https://twitter.com/gatheringinbali",
     tiktok: "https://tiktok.com/@gathering.inbali",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/company/gatheringinbali/",
   },
 ];
 
