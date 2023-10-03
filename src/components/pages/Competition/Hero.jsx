@@ -27,7 +27,7 @@ const Hero = () => {
             </>
           ))}
 
-          <div className="flex justify-center item-center text-xl w-10/12 md:w-6/12 mx-auto">
+          {/* <div className="flex justify-center item-center text-xl w-10/12 md:w-6/12 mx-auto">
             <a target={"_blank"} href="https://forms.gle/NRb9fGDLdwVKv75r6" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
               Register Now !
             </a>
@@ -56,7 +56,7 @@ const Hero = () => {
             <a target={"_blank"} href="https://forms.gle/KrHGAiG37Brmach69" className="py-2 px-6 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
               Submission
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
 
