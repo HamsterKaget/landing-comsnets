@@ -39,47 +39,17 @@ const SeatingPreview = () => {
               </div>
               <div className="row">
                 <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-              <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="row">
                 <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
                 <div className="seat"></div>
               </div>
               <div className="row">
                 <div className="seat"></div>
                 <div className="seat"></div>
                 <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
                 <div className="seat-selected"></div>
                 <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-              <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
               </div>
             </div>
             <div className="col">
@@ -99,45 +69,15 @@ const SeatingPreview = () => {
               </div>
               <div className="row">
                 <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
+                <div className="seat"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
               </div>
               <div className="row">
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
                 <div className="seat"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
                 <div className="seat"></div>
               </div>
@@ -160,103 +100,42 @@ const SeatingPreview = () => {
               <div className="row">
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
                 <div className="seat-selected"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
               </div>
               <div className="row">
                 <div className="seat"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
                 <div className="seat"></div>
-                <div className="seat"></div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
               </div>
             </div>
             <div className="col">
               <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-              <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
                 <div className="seat"></div>
-                <div className="seat-selected"></div>
-              </div>
-              <div className="row">
                 <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
                 <div className="seat"></div>
               </div>
               <div className="row">
                 <div className="seat"></div>
                 <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
               </div>
               <div className="row">
                 <div className="seat"></div>
                 <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
                 <div className="seat"></div>
               </div>
               <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
                 <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-              <div className="row">
-                <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
@@ -265,51 +144,21 @@ const SeatingPreview = () => {
             </div>
             <div className="col">
               <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
                 <div className="seat"></div>
               </div>
               <div className="row">
-                <div className="seat-selected"></div>
                 <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
                 <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
                 <div className="seat"></div>
               </div>
               <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
                 <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-              <div className="row">
-                <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
                 <div className="seat"></div>
@@ -319,7 +168,7 @@ const SeatingPreview = () => {
                 <div className="seat"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
+                <div className="seat"></div>
                 <div className="seat"></div>
               </div>
             </div>
@@ -328,29 +177,59 @@ const SeatingPreview = () => {
               <div className="row">
                 <div className="seat"></div>
                 <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
                 <div className="seat"></div>
                 <div className="seat"></div>
                 <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="row">
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
               </div>
               <div className="row">
                 <div className="seat"></div>
                 <div className="seat"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-              </div>
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat"></div>
                 <div className="seat"></div>
               </div>
             </div>
@@ -370,10 +249,161 @@ const SeatingPreview = () => {
                 <div className="seat"></div>
               </div>
               <div className="row">
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
                 <div className="seat"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
                 <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat-selected"></div>
+                <div className="seat-selected"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+              </div>
+              <div className="row">
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
+                <div className="seat"></div>
                 <div className="seat"></div>
               </div>
               <div className="row">
@@ -389,36 +419,6 @@ const SeatingPreview = () => {
                 <div className="seat"></div>
                 <div className="seat-selected"></div>
                 <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-              </div>
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="row">
-                <div className="seat"></div>
-                <div className="seat-selected"></div>
-                <div className="seat-selected"></div>
                 <div className="seat"></div>
                 <div className="seat"></div>
               </div>
@@ -431,7 +431,7 @@ const SeatingPreview = () => {
               </div>
               <div className="row">
                 <div className="seat"></div>
-                <div className="seat-selected"></div>
+                <div className="seat"></div>
                 <div className="seat-selected"></div>
                 <div className="seat"></div>
                 <div className="seat"></div>
@@ -477,8 +477,8 @@ const SeatingPreview = () => {
           </div>
           <div className="mx-auto min-w-sm w-96 container mt-10 mb-4 ">
             <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-              <div class="bg-indigo-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" id="progress-bar" style={{ width: "46%" }}>
-                46%
+              <div class="bg-indigo-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" id="progress-bar" style={{ width: "28%" }}>
+                28%
               </div>
             </div>
           </div>
@@ -488,7 +488,7 @@ const SeatingPreview = () => {
                 <div className="seat-selected"></div>
                 <span class="ml-1.5 mr-1.5">
                   {" "}
-                  Occupied <span class="text-slate-400 text-sm">(138)</span>
+                  Occupied <span class="text-slate-400 text-sm">(84)</span>
                 </span>
               </div>
               <span className="dark:text-slate-400">/</span>
@@ -496,7 +496,7 @@ const SeatingPreview = () => {
                 <div className="seat"></div>
                 <span class="ml-1.5 mr-1.5">
                   {" "}
-                  Available <span class="text-slate-400 text-sm">(162)</span>
+                  Available <span class="text-slate-400 text-sm">(216)</span>
                 </span>
               </div>
             </div>

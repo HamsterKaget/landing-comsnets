@@ -384,7 +384,7 @@ export const committee = [
       linkedin: "#",
     },
     description: "",
-    image: "./image/about-us/drtulika.jpeg",
+    image: "./image/about-us/tulika.jpg",
   },
   // {
   //   name: "Ranjita Bhagwan",
