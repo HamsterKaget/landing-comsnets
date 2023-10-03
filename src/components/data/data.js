@@ -178,15 +178,15 @@ export const topic = [
 
 export const topicImage = [
   {
-    src: "/slider/Schedule/1.png",
+    src: "/slider/ScheduleBaruBanget/1.png",
     alt: "cyber",
   },
   {
-    src: "/slider/Schedule/2.png",
+    src: "/slider/ScheduleBaruBanget/2.png",
     alt: "cyber",
   },
   {
-    src: "/slider/Schedule/3.png",
+    src: "/slider/ScheduleBaruBanget/3.png",
     alt: "cyber",
   },
 ];
@@ -316,7 +316,7 @@ export const committee = [
   },
   {
     name: "Rajeev Shorey",
-    job: "UQIDAR, Indian Institute of Technology",
+    job: "Indian Institute of Technology",
     corp: "Delhi, India",
     link: {
       instagram: "#",
@@ -852,9 +852,9 @@ export const subFooter = [
     youtube: "https://www.youtube.com/@gathering.inbali/about",
     instagram: "https://instagram.com/gathering.inbali",
     facebook: "https://www.facebook.com/gathering.inbali",
-    twitter: "#",
+    twitter: "https://twitter.com/gatheringinbali",
     tiktok: "https://tiktok.com/@gathering.inbali",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/company/gatheringinbali/",
   },
 ];
 

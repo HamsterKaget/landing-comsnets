@@ -14,7 +14,7 @@ const Topic = () => {
     <>
       <section id="eventDetail" className=" bg-slate-50 dark:bg-slate-800">
         <div className="container flex flex-wrap h-auto  mx-auto">
-          <div className="lg:w-full w-full p-12 lg:px-48 order-last">
+          {/* <div className="lg:w-full w-full p-12 lg:px-48 order-last">
             <Swiper spaceBetween={20} slidesPerView={1} autoplay={{ delay: 1000 }} loop pagination={{ clickable: true }} effect="cards" className="mySwiper">
               {topicImage.map((image, index) => (
                 <SwiperSlide key={index}>
@@ -23,13 +23,13 @@ const Topic = () => {
               ))}
             </Swiper>
 
-            <p className="text-center mt-4">
+            <p className="text-center dark:text-white mt-4">
               need to download the schedule ?{" "}
               <a href="#" className="underline font-bold text-indigo-600" onClick={() => window.open("/file/Comsnets Workshop - Bali 2023 Daily Schedule.pdf", "_blank")}>
                 click here !
               </a>
             </p>
-          </div>
+          </div> */}
           <div className="lg:w-full py-5">
             <div className="container">
               {topic.map((data) => (

@@ -13,29 +13,33 @@ import Contact from "./index/Contact";
 import TargetAudience from "./index/TargetAudience";
 import Topic from "./index/Topic";
 import SponsorLogo from "./index/SponsorLogo";
+import SeatingPreview from "./index/SeatingPreview";
+import Schedule from "./index/Schedule";
 
 class Home extends React.Component {
-    render() {
-        return (
-            <>
-                <Layout>
-                    <Hero />
-                    <Countdown />
-                    <IntroEvent />
-                    {/* <Timeline /> */}
-                    <Topic />
-                    <TargetAudience />
-                    {/* <Speaker /> */}
-                    <EventDetail />
-                    <Package strip />
-                    <SponsorLogo />
-                    {/* <Sponsor /> */}
-                    {/* <Activity /> */}
-                    {/* <Blog /> */}
-                    <Contact />
-                </Layout>
-            </>
-        );
-    }
+  render() {
+    return (
+      <>
+        <Layout>
+          <Hero />
+          <Countdown />
+          <IntroEvent />
+          {/* <Timeline /> */}
+          <Topic />
+          <Schedule />
+          <TargetAudience />
+          {/* <Speaker /> */}
+          <EventDetail />
+          <Package />
+          <SeatingPreview />
+          <SponsorLogo />
+          {/* <Sponsor /> */}
+          {/* <Activity /> */}
+          {/* <Blog /> */}
+          <Contact />
+        </Layout>
+      </>
+    );
+  }
 }
 export default Home;
