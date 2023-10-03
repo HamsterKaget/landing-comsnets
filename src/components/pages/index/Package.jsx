@@ -1,6 +1,7 @@
 import React from "react";
 import { BsCheck } from "react-icons/bs";
 import { pricing } from "../../data/data";
+import SeatingPreview from "./SeatingPreview"; // Adjust the import path
 
 const Package = (props) => {
   return (
