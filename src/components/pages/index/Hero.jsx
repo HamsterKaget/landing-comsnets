@@ -37,7 +37,7 @@ const Hero = () => {
             <a target={"_blank"} href="https://shop.gatheringinbali.com/events/detail/comsnets-bali-2023-fullboard-package" className="py-2 px-10 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
               Buy Ticket
             </a>
-            <a target={"_blank"} href="/file/brochure.pdf" className="py-2 px-6 bg-transparent border-2 border-white-600 text-white rounded-md m-2">
+            <a target={"_blank"} href="/file/(02) Comsnets Workshop 2023 Digital Transformation How to Build Sustainable Infrastructures  Through A.pdf" className="py-2 px-6 bg-transparent border-2 border-white-600 text-white rounded-md m-2">
               Get Brochure
             </a>
           </div>
