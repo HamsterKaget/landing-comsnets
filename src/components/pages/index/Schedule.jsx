@@ -42,7 +42,7 @@ const Schedule = () => {
                 Officials Protocols
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Introduction
+                Opening
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -53,7 +53,7 @@ const Schedule = () => {
                 Opening Ceremony
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Cultural Performance
+                Cultural Performance (Bali)
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -64,7 +64,11 @@ const Schedule = () => {
                 Keynote Speech
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+<<<<<<< HEAD
                 Indonesia's National Digital Transformation Strategy
+=======
+                Indonesia's National Digital Transformation Strategy 
+>>>>>>> 6db0598e24619505bb0df5622cfc669040efc5ea
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
                     <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
@@ -372,7 +376,7 @@ const Schedule = () => {
                 Official Protocols
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Introduction
+                Opening 
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -690,7 +694,7 @@ const Schedule = () => {
                 Official Protocols
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Introduction
+                Opening
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
