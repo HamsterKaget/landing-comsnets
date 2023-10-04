@@ -64,15 +64,26 @@ const Schedule = () => {
                 Keynote Speech
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Security in Digital Economy
+                Indonesia's National Digital Transformation Strategy
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
+                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+                      </svg>
+                      Potential Speaker
+                    </h3>
+                  </div>
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/menkominfo.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./speaker/menkominfo.jpg" alt="budie-arie" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
                     <h3 className="font-bold text-xl">Budi Arie Setiadi</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Ministry of Communication</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">and Information (MENKOMINFO)</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">
+                      Minister of Communication and
+                      <br />
+                      Information of the Republic of Indonesia
+                    </h3>
                   </div>
                 </div>
               </th>
@@ -85,7 +96,7 @@ const Schedule = () => {
                 Session 1
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Path to Smart World
+                Building the Emerging Smart World
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
                     <img src="./image/Brett-King-Wordpress.webp" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
@@ -372,7 +383,7 @@ const Schedule = () => {
                 Keynote Speech
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Using of IT technology for sustainable industries
+                Indonesia and India to work together to strengthen digital and green economy
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
                     <img src="./image/dr-kishore-babu.png" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
@@ -392,8 +403,16 @@ const Schedule = () => {
                 Session 1
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Digital Transformation to Build Green Economy in Indonesia
+                Digital and Green Technology for the Planet
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
+                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+                      </svg>
+                      Potential Speaker
+                    </h3>
+                  </div>
                   <div className="image w-32 h-32 p-1 rounded-full">
                     <img src="./image/Ilham-Habibie.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
@@ -448,8 +467,16 @@ const Schedule = () => {
                 Session 3
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                IT Energy Consumption Solutions
+                Global Value Chains: Digital and Green Transformations
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
+                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+                      </svg>
+                      Potential Speaker
+                    </h3>
+                  </div>
                   <div className="image w-32 h-32 p-1 rounded-full">
                     <img src="./image/dr-alfred-boediman.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
@@ -512,6 +539,14 @@ const Schedule = () => {
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Emission Reduction in Small-Medium Enterprise
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
+                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+                      </svg>
+                      Potential Speaker
+                    </h3>
+                  </div>
                   <div className="image w-32 h-32 p-1 rounded-full">
                     <img src="./image/natalia-rialucky.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
@@ -677,8 +712,16 @@ const Schedule = () => {
                 Biz Talk 1
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Sustainability and Smart City
+                Sustainable Smart Cities: A Journey Towards a Greener Future
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
+                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+                      </svg>
+                      Potential Speaker
+                    </h3>
+                  </div>
                   <div className="image w-32 h-32 p-1 rounded-full">
                     <img src="./image/kepala-otoritas-ikn.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
@@ -740,7 +783,7 @@ const Schedule = () => {
                 Biz Talk 3
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Digital Economy in Metaverse
+                Viable Business Models for Sustainability of Smart City
                 {/* <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
                     <img src="./speaker/ghaza.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
