@@ -390,7 +390,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 1
-              </th>              
+              </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Digital and Green Technology for the Planet
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
@@ -446,7 +446,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 3
-              </th>            
+              </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Global Value Chains: Digital and Green Transformations
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
@@ -508,7 +508,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 5
-              </th>            
+              </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Emission Reduction in Small-Medium Enterprise
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
@@ -675,7 +675,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Biz Talk 1
-              </th>            
+              </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Sustainable Smart Cities: A Journey Towards a Greener Future
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">

@@ -91,7 +91,7 @@ export const partner = [
     },
   },
   {
-    name: "Digital Enterprices Indonesia",
+    name: "Digital Enterprise Indonesia",
     category: "IT Project Management",
     logo: "/partner/dei.png",
     cta: "#",

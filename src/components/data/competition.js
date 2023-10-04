@@ -9,7 +9,7 @@ export const hero = [
 
 export const timer = [
   {
-    date: "September 25, 2023, 21:00:00",
+    date: "October 16, 2023, 9:00:00",
   },
 ];
 

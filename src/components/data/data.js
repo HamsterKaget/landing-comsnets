@@ -178,15 +178,15 @@ export const topic = [
 
 export const topicImage = [
   {
-    src: "/slider/ScheduleBaruBanget/1.png",
+    src: "/slider/ScheduleBenarBenarBaruBanget/1.png",
     alt: "cyber",
   },
   {
-    src: "/slider/ScheduleBaruBanget/2.png",
+    src: "/slider/ScheduleBenarBenarBaruBanget/2.png",
     alt: "cyber",
   },
   {
-    src: "/slider/ScheduleBaruBanget/3.png",
+    src: "/slider/ScheduleBenarBenarBaruBanget/3.png",
     alt: "cyber",
   },
 ];
@@ -415,8 +415,44 @@ export const ourTeams = [
     image: "./image/about-us/bu-ade.jpg",
   },
   {
+    name: "Ervan Yudi Widyarto",
+    job: "Executive Committe",
+    corp: "Indonesia",
+    link: {
+      instagram: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+    // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
+    image: "./image/about-us/yudi.jpg",
+  },
+  {
+    name: "Bari Arijono",
+    job: "Executive Committe",
+    corp: "Indonesia",
+    link: {
+      instagram: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+    // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
+    image: "./image/about-us/bari-fix.jpeg",
+  },
+  {
+    name: "Ratih Soemaprawiro",
+    job: "Executive Committe",
+    corp: "Indonesia",
+    link: {
+      instagram: "#",
+      facebook: "#",
+      linkedin: "#",
+    },
+    // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
+    image: "./image/about-us/bu-ratih.jpg",
+  },
+  {
     name: "Dana Pesada",
-    job: "Member of Executive Committe",
+    job: "Executive Committe",
     corp: "Indonesia",
     link: {
       instagram: "#",
@@ -428,7 +464,7 @@ export const ourTeams = [
   },
   {
     name: "Erry Wardhana",
-    job: "Member of Executive Committe",
+    job: "Executive Committe",
     corp: "Indonesia",
     link: {
       instagram: "#",
@@ -439,8 +475,8 @@ export const ourTeams = [
     image: "./image/about-us/pa-erry.jpg",
   },
   {
-    name: "Ervan Yudi Widyarto",
-    job: "Member of Executive Committe",
+    name: "Harry K Witjaksana",
+    job: "Executive Committe",
     corp: "Indonesia",
     link: {
       instagram: "#",
@@ -448,23 +484,11 @@ export const ourTeams = [
       linkedin: "#",
     },
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/about-us/yudi.jpg",
-  },
-  {
-    name: "Ratih Soemaprawiro",
-    job: "Member of Executive Committe",
-    corp: "Indonesia",
-    link: {
-      instagram: "#",
-      facebook: "#",
-      linkedin: "#",
-    },
-    // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/about-us/bu-ratih.jpg",
+    image: "./image/about-us/hary.jpeg",
   },
   {
     name: "Rina Puspita",
-    job: "Member of Executive Committe",
+    job: "Executive Committe",
     corp: "Indonesia",
     link: {
       instagram: "#",
@@ -479,7 +503,7 @@ export const ourTeams = [
 export const secretary = [
   {
     name: "Ikram Faishal",
-    job: "Costumer Support",
+    job: "Registration and Social Media",
     corp: "Indonesia",
     link: {
       instagram: "#",
@@ -516,7 +540,7 @@ export const secretary = [
   },
   {
     name: "Kiki Yuliana Anggian",
-    job: "Secretary",
+    job: "Marketing and Customer Service",
     corp: "Indonesia",
     link: {
       instagram: "#",

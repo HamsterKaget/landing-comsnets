@@ -24,15 +24,16 @@ const Hero = () => {
               </h2>
               {/* <hr /> */}
               <h1 className="text-xl my-2.5 lg:text-3xl text-slate-50 opacity-90 font-bold uppercase w-fit py-2.5 px-8 mx-auto" key={data.title}>
-                Collaborate, Innovate, Transform:
+                Innovate, Collaborate, Transform:
                 <br />
-                Together towards Digital Excellence.
+                HOW TO BUILD SUSTAINABLE INFRASTRUCTURES <br />
+                THROUGH AUTOMATION AND DIGITALIZATION
               </h1>
               {/* <p className="text-white my-3">{data.desc}</p> */}
             </>
           ))}
 
-          <div className="flex justify-center item-center text-xl w-10/12 md:w-6/12 mx-auto">
+          <div className="flex flex-col md:flex-row justify-center item-center text-xl w-10/12 md:w-6/12 mx-auto">
             <a target={"_blank"} href="https://shop.gatheringinbali.com/events/detail/comsnets-bali-2023-fullboard-package" className="py-2 px-10 bg-indigo-600 border-indigo-600 text-white rounded-md m-2">
               Buy Ticket
             </a>
