@@ -38,11 +38,11 @@ const Navbar = () => {
                         </svg>
                       </span>
                     </span>
-                    <ul className={`absolute z-50 hidden bg-slate-50 dark:bg-slate-800 dark:text-white px-4 top-8 -left-4 rounded-lg group-hover:block ${nav.mobileMenu ? "block md:hidden" : ""}`}>
+                    <ul className={`absolute z-50 hidden bg-slate-50 dark:bg-slate-800 dark:text-white px-4 top-8 -left-4 rounded-lg group-hover:block ${nav.mobileMenu}`}>
                       {nav.subMenu && (
                         <ul className="absolute bg-white shadow-lg rounded-md w-48 dark:bg-slate-800 dark:text-white">
                           {nav.subMenu.map((subNav) => (
-                            <li key={subNav.name} className={`px-4 py-2 hover:bg-indigo-600 hover:text-white duration-300 first:rounded-tr-md last:rounded-b-md ${nav.mobileMenu ? "block md:hidden" : "hidden md:block"}`}>
+                            <li key={subNav.name} className={`px-4 py-2 hover:bg-indigo-600 hover:text-white duration-300 first:rounded-tr-md last:rounded-b-md ${nav.mobileMenu}`}>
                               <Link to={subNav.to}>{subNav.name}</Link>
                             </li>
                           ))}
