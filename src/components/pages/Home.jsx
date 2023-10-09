@@ -15,7 +15,7 @@ import Topic from "./index/Topic";
 import SponsorLogo from "./index/SponsorLogo";
 import SeatingPreview from "./index/SeatingPreview";
 import Schedule from "./index/Schedule";
-
+import Testimoni from "./index/Testimoni";
 class Home extends React.Component {
   render() {
     return (
@@ -32,6 +32,7 @@ class Home extends React.Component {
           <EventDetail />
           <Package />
           <SeatingPreview />
+          <Testimoni />
           <SponsorLogo />
           {/* <Sponsor /> */}
           {/* <Activity /> */}
