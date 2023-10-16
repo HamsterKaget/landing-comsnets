@@ -8,7 +8,7 @@ const SeatingPreview = () => {
   // // Set the width dynamically using JavaScript
   // progressBar.style.width = progressWidth * 100 + "%";
   return (
-    <section id="seating-preview" className="bg-slate-50 dark:bg-slate-800 ">
+    <section id="seating-preview" className="bg-slate-100 dark:bg-slate-800 ">
       <div className="container mx-auto p-4">
         <div className="my-8">
           <div className="md:w-8/12 mx-auto text-center">
