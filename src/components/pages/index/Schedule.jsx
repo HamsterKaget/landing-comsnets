@@ -30,6 +30,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">08:00</td>
               <td class="px-6 py-2 border">09:00</td>
               <td class="px-6 py-2 border">1:00</td>
+              <td></td>
               <th scope="row" colSpan={2} class="border col-span-2 px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Open Registration
               </th>
@@ -60,7 +61,8 @@ const Schedule = () => {
               <td class="px-6 py-2 border">09:20</td>
               <td class="px-6 py-2 border">09:35</td>
               <td class="px-6 py-2 border">0:15</td>
-              <th scope="row" colSpan={2} class="border col-span-2 px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+              <td></td>
+              <th scope="row" class="border col-span-2 px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Opening Speech
               </th>
             </tr>
@@ -68,7 +70,8 @@ const Schedule = () => {
               <td class="px-6 py-2 border">09:35</td>
               <td class="px-6 py-2 border">09:45</td>
               <td class="px-6 py-2 border">0:10</td>
-              <th scope="row" colSpan={2} class="border col-span-2 px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+              <td></td>
+              <th scope="row" class="border col-span-2 px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Opening Ceremony
               </th>
             </tr>
@@ -80,7 +83,7 @@ const Schedule = () => {
                 Keynote Speech
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Indonesia's National Digital Transformation Strategy 
+                Indonesia's National Digital Transformation Strategy
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
                     <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
@@ -174,7 +177,7 @@ const Schedule = () => {
                   </div>
                 </div>
               </th>
-            </tr>           
+            </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">11:45</td>
               <td class="px-6 py-2 border">12:15</td>
@@ -194,7 +197,7 @@ const Schedule = () => {
                   </div>
                 </div>
               </th>
-            </tr>                        
+            </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
                 12:15
@@ -236,7 +239,7 @@ const Schedule = () => {
                   </div>
                 </div>
               </th>
-            </tr>                     
+            </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">14:00</td>
               <td class="px-6 py-2 border">14:30</td>
@@ -310,7 +313,7 @@ const Schedule = () => {
                 Networking
               </th>
             </tr>
-                        
+
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">16:00</td>
               <td class="px-6 py-2 border">17:00</td>
@@ -378,7 +381,7 @@ const Schedule = () => {
                 Official Protocols
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Opening 
+                Opening
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -410,7 +413,7 @@ const Schedule = () => {
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Bursa Karbon Promotes Green Economy
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">                  
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
                     <img src="./image/logo-ojk.png" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
@@ -512,7 +515,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 4
-              </th>              
+              </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Green Data Center: The Future of Sustainable IT Infrastructures
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
@@ -625,7 +628,7 @@ const Schedule = () => {
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Networking
               </th>
-            </tr>                                    
+            </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">16:00</td>
               <td class="px-6 py-2 border">17:00</td>
@@ -693,7 +696,7 @@ const Schedule = () => {
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Opening
               </th>
-            </tr>           
+            </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">09:10</td>
               <td class="px-6 py-2 border">10:10</td>
@@ -764,7 +767,7 @@ const Schedule = () => {
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Networking
               </th>
-            </tr>            
+            </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">11:10</td>
               <td class="px-6 py-2 border">11:40</td>
@@ -773,7 +776,7 @@ const Schedule = () => {
                 Biz Talk 3
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Viable Business Models for Sustainability of Smart City                
+                Viable Business Models for Sustainability of Smart City
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -816,7 +819,7 @@ const Schedule = () => {
 
   return (
     <>
-      <section id="schedule" className=" bg-slate-50 dark:bg-slate-800">
+      <section id="schedule" className=" bg-slate-100 dark:bg-slate-900">
         <div className="container flex flex-wrap h-auto  mx-auto"></div>
         <div className="lg:w-full py-5">
           <h2 className="uppercase font-bold text-center text-2xl md:text-4xl dark:text-white mt-4 mb-8">Schedule</h2>
