@@ -42,7 +42,7 @@ const Schedule = () => {
                 Officials Protocols
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Opening
+                Introduction
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -50,15 +50,31 @@ const Schedule = () => {
               <td class="px-6 py-2 border">09:20</td>
               <td class="px-6 py-2 border">0:10</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Opening Ceremony
+                Bali Performance
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Cultural Performance (Bali)
+                Dance
+              </th>
+            </tr>
+            <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">09:20</td>
+              <td class="px-6 py-2 border">09:35</td>
+              <td class="px-6 py-2 border">0:15</td>
+              <th scope="row" colSpan={2} class="border col-span-2 px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Opening Speech
+              </th>
+            </tr>
+            <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">09:35</td>
+              <td class="px-6 py-2 border">09:45</td>
+              <td class="px-6 py-2 border">0:10</td>
+              <th scope="row" colSpan={2} class="border col-span-2 px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Opening Ceremony
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">09:20</td>
-              <td class="px-6 py-2 border">09:50</td>
+              <td class="px-6 py-2 border">09:45</td>
+              <td class="px-6 py-2 border">10:15</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Keynote Speech
@@ -89,11 +105,62 @@ const Schedule = () => {
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">09:50</td>
+              <td class="px-6 py-2 border">10:15</td>
               <td class="px-6 py-2 border">10:45</td>
-              <td class="px-6 py-2 border">0:55</td>
+              <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 1
+              </th>
+              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Digital and Green Technology for the Planet
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
+                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+                      </svg>
+                      Potential Speaker
+                    </h3>
+                  </div>
+                  <div className="image w-32 h-32 p-1 rounded-full">
+                    <img src="./image/Ilham-Habibie.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                  </div>
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="font-bold text-xl">Dr. H. Ilham Akbar Habibie,</h3>
+                    <h3 className="font-bold text-xl">Dipl.Ing, MBA</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Head of Reaserch & Technology KADIN</h3>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border" rowspan="2">
+                10:45
+              </td>
+              <td class="px-6 py-2 border" rowspan="2">
+                11:15
+              </td>
+              <td class="px-6 py-2 border" rowspan="2">
+                0:30
+              </td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
+                Coffee Break
+              </th>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Demo & Exhibit
+              </th>
+            </tr>
+            <tr className="bg-gray-100 dark:bg-slate-800">
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Networking
+              </th>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">11:15</td>
+              <td class="px-6 py-2 border">11:45</td>
+              <td class="px-6 py-2 border">0:30</td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Session 2
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Building the Emerging Smart World
@@ -107,14 +174,13 @@ const Schedule = () => {
                   </div>
                 </div>
               </th>
-            </tr>
-
+            </tr>           
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">10:45</td>
-              <td class="px-6 py-2 border">11:40</td>
-              <td class="px-6 py-2 border">0:55</td>
+              <td class="px-6 py-2 border">11:45</td>
+              <td class="px-6 py-2 border">12:15</td>
+              <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 2
+                Session 3
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Future of Money in Indonesia
@@ -128,74 +194,16 @@ const Schedule = () => {
                   </div>
                 </div>
               </th>
-            </tr>
-
+            </tr>                        
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
-                11:40
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                12:10
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                0:30
-              </td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
-                Coffee Break
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Demo & Exhibit
-              </th>
-            </tr>
-
-            <tr className="bg-gray-100 dark:bg-slate-800">
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
-              </th>
-            </tr>
-
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">12:10</td>
-              <td class="px-6 py-2 border">12:40</td>
-              <td class="px-6 py-2 border">0:30</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 3
-              </th>
-              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Cyber Security - Innovations and Challenges
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/tulika-pandey.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
-                  </div>
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Dr. tulika Pandey</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Senior Director of MEITY</h3>
-                  </div>
-                </div>
-              </th>
-            </tr>
-
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">12:40</td>
-              <td class="px-6 py-2 border">13:00</td>
-              <td class="px-6 py-2 border">0:20</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 4
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Technological innovations in the financial system in Indonesia
-              </th>
-            </tr>
-
-            <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border" rowspan="2">
-                13:00
+                12:15
               </td>
               <td class="px-6 py-2 border" rowspan="2">
                 13:30
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                0:30
+                1:15
               </td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
                 Lunch
@@ -209,33 +217,32 @@ const Schedule = () => {
                 Networking
               </th>
             </tr>
-
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">13:30</td>
               <td class="px-6 py-2 border">14:00</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 5
+                Session 4
               </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Bank 4.0 - Indonesia Readiness
-                {/* <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Technological innovations in the financial system in Indonesia
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/indonesian-digital-bank.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./image/tulika-pandey.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl"></h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Indonesian Digital Bank</h3>
+                    <h3 className="font-bold text-xl">Dr. tulika Pandey</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Senior Director of MEITY</h3>
                   </div>
-                </div> */}
+                </div>
               </th>
-            </tr>
+            </tr>                     
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">14:00</td>
               <td class="px-6 py-2 border">14:30</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 6
+                Session 5
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Cyber Threat Intelligences
@@ -250,13 +257,43 @@ const Schedule = () => {
                 </div>
               </th>
             </tr>
-
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">14:30</td>
+              <td class="px-6 py-2 border">15:00</td>
+              <td class="px-6 py-2 border">0:30</td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Session 6
+              </th>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Cyber Attacks - How to Mitigate Risks
+              </th>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">15:00</td>
+              <td class="px-6 py-2 border">15:30</td>
+              <td class="px-6 py-2 border">0:30</td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Session 7
+              </th>
+              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Blockchain , CBDC and Data Privacy
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="image w-32 h-32 p-1 rounded-full">
+                    <img src="./image/g_venkatesh.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                  </div>
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="font-bold text-xl">Dr. G. Venkatesh</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">SASKEN Technologies, Ltd, Bangalore</h3>
+                  </div>
+                </div>
+              </th>
+            </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b  dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
-                14:30
+                15:30
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                15:00
+                16:00
               </td>
               <td class="px-6 py-2 border" rowspan="2">
                 0:30
@@ -273,38 +310,7 @@ const Schedule = () => {
                 Networking
               </th>
             </tr>
-
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">15:00</td>
-              <td class="px-6 py-2 border">15:30</td>
-              <td class="px-6 py-2 border">0:30</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 7
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Cyber Attacks - How to Mitigate Risks
-              </th>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">15:30</td>
-              <td class="px-6 py-2 border">16:00</td>
-              <td class="px-6 py-2 border">0:30</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 8
-              </th>
-              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Blockchain , CBDC and Data Privacy
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/g_venkatesh.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
-                  </div>
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Dr. G. Venkatesh</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">SASKEN Technologies, Ltd, Bangalore</h3>
-                  </div>
-                </div>
-              </th>
-            </tr>
+                        
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">16:00</td>
               <td class="px-6 py-2 border">17:00</td>
@@ -345,7 +351,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">21:00</td>
               <td class="px-6 py-2 border">3:00</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Gala Dinner
+                Networking Dinner
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Round table - Seating arranged
@@ -403,23 +409,14 @@ const Schedule = () => {
                 Session 1
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Digital and Green Technology for the Planet
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
-                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
-                      </svg>
-                      Potential Speaker
-                    </h3>
-                  </div>
+                Bursa Karbon Promotes Green Economy
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">                  
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/Ilham-Habibie.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./image/logo-ojk.png" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Dr. H. Ilham Akbar Habibie,</h3>
-                    <h3 className="font-bold text-xl">Dipl.Ing, MBA</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Head of Reaserch & Technology KADIN</h3>
+                    <h3 className="font-bold text-xl">Financial Services Authority</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">(OJK)</h3>
                   </div>
                 </div>
               </th>
@@ -427,10 +424,10 @@ const Schedule = () => {
 
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
-                10:10
+                10:40
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                10:40
+                11:10
               </td>
               <td class="px-6 py-2 border" rowspan="2">
                 0:30
@@ -455,8 +452,17 @@ const Schedule = () => {
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 2
               </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Digital Assets Promotes Green Economy
+              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Manufacturing Plant Energy Systems - Sustainable Technology
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="image w-32 h-32 p-1 rounded-full">
+                    <img src="./image/about-us/jefrey.jpeg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                  </div>
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="font-bold text-xl">Jeffrey Tew</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">TATA Consultancy Services (TCS)</h3>
+                  </div>
+                </div>
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -466,25 +472,16 @@ const Schedule = () => {
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 3
               </th>
-              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Global Value Chains: Digital and Green Transformations
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
-                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
-                      </svg>
-                      Potential Speaker
-                    </h3>
-                  </div>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Green Transportation
+                {/* <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">                  
                   <div className="image w-32 h-32 p-1 rounded-full">
                     <img src="./image/dr-alfred-boediman.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Dr. Alfred Boediman PhD</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Partner of Jawara Ventures</h3>
+                    <h3 className="font-bold text-xl">EV Company</h3>                    
                   </div>
-                </div>
+                </div> */}
               </th>
             </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
@@ -515,89 +512,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 4
-              </th>
-              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Manufacturing Plant Energy Systems - Sustainable Technology
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/about-us/jefrey.jpeg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
-                  </div>
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Jeffrey Tew</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">TATA Consultancy Services (TCS)</h3>
-                  </div>
-                </div>
-              </th>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">14:00</td>
-              <td class="px-6 py-2 border">14:30</td>
-              <td class="px-6 py-2 border">0:30</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 5
-              </th>
-              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Emission Reduction in Small-Medium Enterprise
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
-                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
-                      </svg>
-                      Potential Speaker
-                    </h3>
-                  </div>
-                  <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/natalia-rialucky.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
-                  </div>
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Natalia Rialucky</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">CEO Fairatmos</h3>
-                  </div>
-                </div>
-              </th>
-            </tr>
-            <tr class="bg-gray-100 dark:bg-slate-800 border-b  dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border" rowspan="2">
-                14:30
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                15:00
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                0:30
-              </td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
-                Coffee Break
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Demo & Exhibit
-              </th>
-            </tr>
-            <tr className="bg-gray-100 dark:bg-slate-800">
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
-              </th>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">15:00</td>
-              <td class="px-6 py-2 border">15:30</td>
-              <td class="px-6 py-2 border">0:30</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 6
-              </th>
-              {/* <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                IoT and Analytics in Renewable Energy
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/rajeev_shorey.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
-                  </div>
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Rajeev Shorey</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Indian Institute of Technology</h3>
-                  </div>
-                </div>
-              </th> */}
+              </th>              
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Green Data Center: The Future of Sustainable IT Infrastructures
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
@@ -615,16 +530,102 @@ const Schedule = () => {
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">14:00</td>
+              <td class="px-6 py-2 border">14:30</td>
+              <td class="px-6 py-2 border">0:30</td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Session 5
+              </th>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Emission Reduction in Small-Medium Enterprise
+                {/* <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
+                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+                      </svg>
+                      Potential Speaker
+                    </h3>
+                  </div>
+                  <div className="image w-32 h-32 p-1 rounded-full">
+                    <img src="./image/natalia-rialucky.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                  </div>
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="font-bold text-xl">FAIRATMOS</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">CEO Fairatmos</h3>
+                  </div>
+                </div> */}
+              </th>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">14:30</td>
+              <td class="px-6 py-2 border">15:00</td>
+              <td class="px-6 py-2 border">0:30</td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Session 6
+              </th>
+              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Global Value Chains: Digital and Green Transformations
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
+                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+                      </svg>
+                      Potential Speaker
+                    </h3>
+                  </div>
+                  <div className="image w-32 h-32 p-1 rounded-full">
+                    <img src="./image/dr-alfred-boediman.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                  </div>
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="font-bold text-xl">Dr. Alfred Boediman PhD</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Partner of Jawara Ventures</h3>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">15:00</td>
               <td class="px-6 py-2 border">15:30</td>
-              <td class="px-6 py-2 border">16:00</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 7
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Green Transportation
+                Tackle Climate Change with Technology Innovation
+                {/* <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">                  
+                  <div className="image w-32 h-32 p-1 rounded-full">
+                    <img src="./image/natalia-rialucky.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                  </div>
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="font-bold text-xl">Huawei Tech Investment</h3>                    
+                  </div>
+                </div> */}
               </th>
             </tr>
+            <tr class="bg-gray-100 dark:bg-slate-800 border-b  dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border" rowspan="2">
+                15:30
+              </td>
+              <td class="px-6 py-2 border" rowspan="2">
+                16:00
+              </td>
+              <td class="px-6 py-2 border" rowspan="2">
+                0:30
+              </td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
+                Coffee Break
+              </th>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Demo & Exhibit
+              </th>
+            </tr>
+            <tr className="bg-gray-100 dark:bg-slate-800">
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Networking
+              </th>
+            </tr>                                    
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">16:00</td>
               <td class="px-6 py-2 border">17:00</td>
@@ -663,7 +664,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">21:00</td>
               <td class="px-6 py-2 border">3:00</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                GALA DINNER
+                Networking Dinner
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Round table - Seating arranged
@@ -692,22 +693,11 @@ const Schedule = () => {
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Opening
               </th>
-            </tr>
+            </tr>           
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">09:10</td>
-              <td class="px-6 py-2 border">09:40</td>
-              <td class="px-6 py-2 border">0:30</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                AWARDING
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Surviving a Startup - Business Plan Competition Winner Awarding
-              </th>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">09:40</td>
               <td class="px-6 py-2 border">10:10</td>
-              <td class="px-6 py-2 border">0:30</td>
+              <td class="px-6 py-2 border">1:00</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Biz Talk 1
               </th>
@@ -733,31 +723,9 @@ const Schedule = () => {
                 </div>
               </th>
             </tr>
-            <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border" rowspan="2">
-                10:10
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                10:40
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                0:30
-              </td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
-                Coffee Break
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Demo & Exhibit
-              </th>
-            </tr>
-            <tr className="bg-gray-100 dark:bg-slate-800">
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
-              </th>
-            </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">10:10</td>
               <td class="px-6 py-2 border">10:40</td>
-              <td class="px-6 py-2 border">11:10</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Biz Talk 2
@@ -775,6 +743,28 @@ const Schedule = () => {
                 </div>
               </th>
             </tr>
+            <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border" rowspan="2">
+                10:40
+              </td>
+              <td class="px-6 py-2 border" rowspan="2">
+                11:10
+              </td>
+              <td class="px-6 py-2 border" rowspan="2">
+                0:30
+              </td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
+                Coffee Break
+              </th>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Demo & Exhibit
+              </th>
+            </tr>
+            <tr className="bg-gray-100 dark:bg-slate-800">
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Networking
+              </th>
+            </tr>            
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">11:10</td>
               <td class="px-6 py-2 border">11:40</td>
@@ -782,17 +772,8 @@ const Schedule = () => {
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Biz Talk 3
               </th>
-              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Viable Business Models for Sustainability of Smart City
-                {/* <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./speaker/ghaza.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
-                  </div>
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Ghazanfar Iqbal</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80  max-w-xs overflow-x-hidden">AWS (Indonesia, Malaysia, and Asia Emerging Markets)</h3>
-                  </div>
-                </div> */}
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Viable Business Models for Sustainability of Smart City                
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -803,7 +784,7 @@ const Schedule = () => {
                 Biz Talk 4
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Green Investment for Smart City
+                Surviving Green Start Up
               </th>
             </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
@@ -817,15 +798,15 @@ const Schedule = () => {
                 2:50
               </td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
-                CLOSING & LUNCH
+                AWARDING & CLOSING
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Demo & Exhibit
+                Awarding
               </th>
             </tr>
             <tr className="bg-gray-100 dark:bg-slate-800">
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
+                Closing
               </th>
             </tr>
           </tbody>
