@@ -29,7 +29,7 @@ const TooglerMode = () => {
             Hello 👋, how may we assist you?
         "
         avatar="/image/favicon.png"
-        phoneNumber="+6281222699936"
+        phoneNumber="+6281267560600"
         accountName="Gathering in Bali"
         darkMode={nightMode ? true : false}
         allowEsc

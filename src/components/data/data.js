@@ -474,30 +474,30 @@ export const ourTeams = [
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
     image: "./image/about-us/pa-erry.jpg",
   },
-  {
-    name: "Harry K Witjaksana",
-    job: "Executive Committe",
-    corp: "Indonesia",
-    link: {
-      instagram: "#",
-      facebook: "#",
-      linkedin: "#",
-    },
-    // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/about-us/",
-  },
-  {
-    name: "Rina Puspita",
-    job: "Executive Committe",
-    corp: "Indonesia",
-    link: {
-      instagram: "#",
-      facebook: "#",
-      linkedin: "#",
-    },
-    // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/about-us/",
-  },
+  // {
+  //   name: "Harry K Witjaksana",
+  //   job: "Executive Committe",
+  //   corp: "Indonesia",
+  //   link: {
+  //     instagram: "#",
+  //     facebook: "#",
+  //     linkedin: "#",
+  //   },
+  //   // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
+  //   image: "./image/about-us/",
+  // },
+  // {
+  //   name: "Rina Puspita",
+  //   job: "Executive Committe",
+  //   corp: "Indonesia",
+  //   link: {
+  //     instagram: "#",
+  //     facebook: "#",
+  //     linkedin: "#",
+  //   },
+  //   // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
+  //   image: "./image/about-us/",
+  // },
 ];
 
 export const secretary = [

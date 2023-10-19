@@ -33,13 +33,13 @@ class Home extends React.Component {
           <EventDetail />
           <Package />
           <SeatingPreview />
-          <Testimoni />
+          {/* <Testimoni /> */}
           <SponsorLogo />
           {/* <Sponsor /> */}
           {/* <Activity /> */}
           {/* <Blog /> */}
           {/* <Testimoni /> */}
-	  {/* <FAQ /> */}
+          {/* <FAQ /> */}
           <Contact />
         </Layout>
       </>
