@@ -375,7 +375,7 @@ export const committee = [
     image: "./image/about-us/jefrey.jpeg",
   },
   {
-    name: "Dr. tulika Pandey",
+    name: "Dr. Tulika Pandey",
     job: "Senior Director Ministry of Electronics & Information Technology",
     corp: "India",
     link: {
