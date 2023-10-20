@@ -716,10 +716,10 @@ const Schedule = () => {
                     </h3>
                   </div>
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/kepala-otoritas-ikn.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./image/logo-ikn.png" alt="person" width="500px" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Ir. Bambang Susantono</h3>
+                    <h3 className="font-bold text-xl">Authority of IKN</h3>
                     <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Head of Authority</h3>
                     <h3 className="dark:text-slate-100 text-slate-900 opacity-80">of Nusantara Capital City (IKN)</h3>
                   </div>

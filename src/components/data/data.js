@@ -375,7 +375,7 @@ export const committee = [
     image: "./image/about-us/jefrey.jpeg",
   },
   {
-    name: "Dr. Tulika Pandey",
+    name: "Dr. tulika Pandey",
     job: "Senior Director Ministry of Electronics & Information Technology",
     corp: "India",
     link: {
@@ -484,7 +484,7 @@ export const ourTeams = [
       linkedin: "#",
     },
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/about-us/hary.jpeg",
+    image: "./image/about-us/",
   },
   {
     name: "Rina Puspita",
@@ -496,7 +496,7 @@ export const ourTeams = [
       linkedin: "#",
     },
     // description: "Greetings! As a volunteer in the preparation of the Gathering in Bali event, I hope to contribute to its success and also learn about contemporary and futuristic aspects related to technology.",
-    image: "./image/about-us/rina-puspita.jpg",
+    image: "./image/about-us/",
   },
 ];
 
