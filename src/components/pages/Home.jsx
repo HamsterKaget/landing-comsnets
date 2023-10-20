@@ -33,6 +33,7 @@ class Home extends React.Component {
           <EventDetail />
           <Package />
           <SeatingPreview />
+          <Testimoni />
           <SponsorLogo />
           {/* <Sponsor /> */}
           {/* <Activity /> */}
