@@ -164,6 +164,46 @@ export const eventDetails = [
   },
 ];
 
+export const faq = [
+  {
+    question: "What is COMSNET Workshop Bali 2023?",
+    answer:
+      " COMSNET Workshop Bali 2023 is an innovative and transformative gathering that combines workshop sessions, coaching and mentoring, panel discussions, and a cutting-edge conference. It focuses on the theme of Digital Transformation and provides a platform for professionals and enthusiasts to explore the latest trends, breakthrough technologies, and best practices in the ever-evolving digital landscape.",
+  },
+  {
+    question: "What is the main topic of COMSNET Workshop Bali?",
+    answer:
+      "The main topic of COMSNET Workshop Bali is Digital Transformation. This workshop sheds light on the importance and relevance of digital transformation in modern business. It explores how digital transformation drives innovation, enhances efficiency, and enables organizations to thrive in an increasingly digital world.",
+  },
+  {
+    question: "What benefits can I get by joining this workshop?",
+    answer:
+      "By joining COMSNET Workshop Bali, you can gain a deep understanding of the latest trends, emerging technologies, and transformative strategies in the digital realm. You'll have the opportunity to learn from esteemed experts in various sectors and discover how digital transformation can redefine the way we work, connect, and succeed.",
+  },
+  {
+    question: "How long will the event be held?",
+    answer: "The COMSNET Workshop Bali 2023 will take place from 8th to 10th November 2023.",
+  },
+  {
+    question: "How to buy the ticket ?",
+    answer: "You can buy the ticket to enter the workshop in our shop at <a class='text-indigo-600 underline decoration-sky-600' href='https://shop.gatheringinbali.com'>https://shop.gatheringinbali.com<a/>",
+  },
+  {
+    question: "I want to place a bulk order for my company, institution, or organization, can I get a special price?",
+    answer:
+      "We appreciate your interest in group bookings. If you want to inquire about special offers or customized pricing for your company, institution, or organization, please feel free to contact us via WhatsApp. You can send a message to request a special price by clicking on this <a class='text-indigo-600 underline decoration-sky-600' href='https://wa.me/6281267560600'>WhatsApp link</a> or directly messaging us at +62812-6756-0600. We look forward to assisting you with the best solution to meet your specific needs.",
+  },
+  {
+    question: "What payment methods are supported for payment?",
+    answer: "We accept various payment methods, here is the list of supported payment : Visa, Mastercard, JCB, American Express, Bank Transfer (BCA,BRI,BNI,Mandiri,Permata Bank), Gopay, Qris, Etc.",
+  },
+  {
+    question: "Can I get a refund if I want to cancel my attendance?",
+    answer:
+      "Please note that all ticket purchases for COMSNET Workshop Bali 2023 are non-refundable. Once you have bought a ticket, we regret to inform you that we are unable to process refund requests. We appreciate your understanding and look forward to welcoming you to our event. If you have any questions or need further assistance, please feel free to reach out to our customer support team.",
+  },
+];
+
 export const topic = [
   {
     section: "Event Details",

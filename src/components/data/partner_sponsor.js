@@ -77,19 +77,19 @@ export const partner = [
       youtube: null,
     },
   },
-  {
-    name: "Tambang Karya Energi",
-    category: "Mining Contractor",
-    logo: "/partner/tambang_karya_energi.jpeg",
-    cta: "#",
-    sosmed: {
-      instagram: null,
-      whatsapp: null,
-      facebook: null,
-      linkedin: null,
-      youtube: null,
-    },
-  },
+  // {
+  //   name: "Tambang Karya Energi",
+  //   category: "Mining Contractor",
+  //   logo: "/partner/tambang_karya_energi.jpeg",
+  //   cta: "#",
+  //   sosmed: {
+  //     instagram: null,
+  //     whatsapp: null,
+  //     facebook: null,
+  //     linkedin: null,
+  //     youtube: null,
+  //   },
+  // },
   {
     name: "Digital Enterprise Indonesia",
     category: "IT Project Management",
@@ -153,6 +153,22 @@ export const partnerMarketing = [
     category: "Indonesian Digital Marketing Agency",
     logo: "/partner/krona.webp",
     cta: "https://www.krona.co.id",
+    sosmed: {
+      instagram: null,
+      whatsapp: null,
+      facebook: null,
+      linkedin: null,
+      youtube: null,
+    },
+  },
+];
+
+export const partnerMedia = [
+  {
+    name: "IDN Times",
+    category: "Indonesian Media Company",
+    logo: "/partner/logoidn.png",
+    cta: "https://www.idntimes.com",
     sosmed: {
       instagram: null,
       whatsapp: null,

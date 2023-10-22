@@ -39,7 +39,7 @@ class Home extends React.Component {
           {/* <Activity /> */}
           {/* <Blog /> */}
           {/* <Testimoni /> */}
-          {/* <FAQ /> */}
+          <FAQ />
           <Contact />
         </Layout>
       </>
