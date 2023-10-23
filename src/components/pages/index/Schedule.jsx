@@ -426,8 +426,8 @@ const Schedule = () => {
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">10:10</td>
-              <td class="px-6 py-2 border">10:40</td>
-              <td class="px-6 py-2 border">0:30</td>
+              <td class="px-6 py-2 border">10:50</td>
+              <td class="px-6 py-2 border">0:40</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 1
               </th>
@@ -447,10 +447,10 @@ const Schedule = () => {
 
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
-                10:40
+                10:50
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                11:10
+                11:20
               </td>
               <td class="px-6 py-2 border" rowspan="2">
                 0:30
@@ -469,9 +469,9 @@ const Schedule = () => {
             </tr>
 
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">11:10</td>
-              <td class="px-6 py-2 border">11:40</td>
-              <td class="px-6 py-2 border">0:30</td>
+              <td class="px-6 py-2 border">11:20</td>
+              <td class="px-6 py-2 border">12:00</td>
+              <td class="px-6 py-2 border">0:40</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 2
               </th>
@@ -488,37 +488,18 @@ const Schedule = () => {
                 </div>
               </th>
             </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">11:40</td>
-              <td class="px-6 py-2 border">12:10</td>
-              <td class="px-6 py-2 border">0:30</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 3
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Green Transportation
-                {/* <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">                  
-                  <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/dr-alfred-boediman.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
-                  </div>
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">EV Company</h3>                    
-                  </div>
-                </div> */}
-              </th>
-            </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
                 12:10
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                13:30
+                13:40
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                1:20
+                1:30
               </td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
-                LUNCH
+                Lunch at Resto
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Demo & Exhibit
@@ -529,12 +510,25 @@ const Schedule = () => {
                 Networking
               </th>
             </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">13:30</td>
-              <td class="px-6 py-2 border">14:00</td>
-              <td class="px-6 py-2 border">0:30</td>
+            {/* <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">13:40</td>
+              <td class="px-6 py-2 border">14:05</td>
+              <td class="px-6 py-2 border">0:25</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 4
+                Session 3
+              </th>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Green Transportation
+               
+              </th>
+            </tr> */}
+
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">13:40</td>
+              <td class="px-6 py-2 border">14:05</td>
+              <td class="px-6 py-2 border">0:25</td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Session 3
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Green Data Center: The Future of Sustainable IT Infrastructures
@@ -553,11 +547,11 @@ const Schedule = () => {
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">14:00</td>
-              <td class="px-6 py-2 border">14:30</td>
-              <td class="px-6 py-2 border">0:30</td>
+              <td class="px-6 py-2 border">14:05</td>
+              <td class="px-6 py-2 border">14:40</td>
+              <td class="px-6 py-2 border">0:35</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 5
+                Session 4
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Emission Reduction in Small-Medium Enterprise
@@ -580,7 +574,7 @@ const Schedule = () => {
                 </div> */}
               </th>
             </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+            {/* <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">14:30</td>
               <td class="px-6 py-2 border">15:00</td>
               <td class="px-6 py-2 border">0:30</td>
@@ -607,13 +601,13 @@ const Schedule = () => {
                   </div>
                 </div>
               </th>
-            </tr>
+            </tr> */}
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">15:00</td>
-              <td class="px-6 py-2 border">15:30</td>
+              <td class="px-6 py-2 border">14:40</td>
+              <td class="px-6 py-2 border">15:15</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 7
+                Session 5
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Tackle Climate Change with Technology Innovation
@@ -629,13 +623,13 @@ const Schedule = () => {
             </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b  dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
-                15:30
+                15:15
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                16:00
+                15:50
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                0:30
+                0:35
               </td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
                 Coffee Break
@@ -650,9 +644,9 @@ const Schedule = () => {
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">16:00</td>
-              <td class="px-6 py-2 border">17:00</td>
-              <td class="px-6 py-2 border">1:00</td>
+              <td class="px-6 py-2 border">15:50</td>
+              <td class="px-6 py-2 border">16:25</td>
+              <td class="px-6 py-2 border">0:35</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 PANEL DISCUSSION
               </th>
@@ -662,13 +656,13 @@ const Schedule = () => {
             </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
-                17:00
+                16:25
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                18:00
+                {/* 18:00 */}
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                1:00
+                {/* 1:00 */}
               </td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
                 END OF SESSIONS
