@@ -313,7 +313,7 @@ class Partnership extends React.Component {
                     <div className="flex flex-col items-center pb-10 pt-5 px-1.5">
                       {/* <img className="w-28 h-28 object-cover object-center mb-6 rounded-full shadow-lg" src={item.logo} alt={item.name} /> */}
                       {/* <img className="w-28 h-28 max-w-full max-h-full object-cover object-center mb-6 rounded-full shadow-lg" src={item.logo} alt={item.name} /> */}
-                      <div className="w-28 h-28 bg-slate-950 overflow-hidden rounded-full shadow-lg">
+                      <div className="w-28 h-28 bg-white overflow-hidden rounded-full shadow-lg">
                         <img className="object-contain w-full h-full" src={item.logo} alt={item.name} />
                       </div>
                       <h5 className="mb-1 text-2xl font-semibold mt-2.5 text-gray-900 dark:text-white">{item.name}</h5>
