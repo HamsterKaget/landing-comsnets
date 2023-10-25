@@ -196,7 +196,7 @@ export const partnerOH = [
   {
     name: "AMG Media Group",
     category: "Digital Advertising Company in Indonesia",
-    logo: "/partner/amg.jpeg",
+    logo: "/partner/amg.png",
     cta: "https://www.amg.co.id",
     sosmed: {
       instagram: null,
