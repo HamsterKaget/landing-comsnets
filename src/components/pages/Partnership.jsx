@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../layout/Layout";
 import { FaInstagram, FaFacebookF, FaLinkedinIn, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import styles from "../../card-hover.module.css"; // Import CSS module styles
-import { partner, partnerMarketing, partnerStrategic, partnerMedia } from "../data/partner_sponsor";
+import { partner, partnerMarketing, partnerStrategic, partnerMedia, partnerOH } from "../data/partner_sponsor";
 
 class Partnership extends React.Component {
   render() {
@@ -214,6 +214,70 @@ class Partnership extends React.Component {
                 <div></div>
                 {/* card */}
                 {partnerMedia.map((item) => (
+                  // <div className="relative w-full min-w-[250px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" key={item.name}>
+                  <div
+                    className="relative h-80 w-full min-w-[250px] max-w-full bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 translate-y-2 hover:-translate-y-2 transition-all duration-300 shadow-lg hover:border-indigo-600 dark:hover:border-indigo-600"
+                    key={item.name}
+                  >
+                    <div className="icons-wrapper absolute top-3 right-5 z-10 flex flex-col items-center space-y-1.5">
+                      {item.sosmed.instagram && (
+                        <a href={item.sosmed.instagram}>
+                          <FaInstagram className="bg-indigo-600 border border-white  rounded-full p-1.5 h-7 w-7 text-white mt-2 transition-all duration-300 translate-y-1 hover:-translate-y-1 opacity-75 hover:opacity-100" />
+                        </a>
+                      )}
+                      {item.sosmed.whatsapp && (
+                        <a href={item.sosmed.whatsapp}>
+                          <FaWhatsapp className="bg-indigo-600 border border-white  rounded-full p-1.5 h-7 w-7 text-white mt-2 transition-all duration-300 translate-y-1 hover:-translate-y-1 opacity-75 hover:opacity-100" />
+                        </a>
+                      )}
+                      {item.sosmed.facebook && (
+                        <a href={item.sosmed.facebook}>
+                          <FaFacebookF className="bg-indigo-600 border border-white  rounded-full p-1.5 h-7 w-7 text-white mt-2 transition-all duration-300 translate-y-1 hover:-translate-y-1 opacity-75 hover:opacity-100" />
+                        </a>
+                      )}
+                      {item.sosmed.linkedin && (
+                        <a href={item.sosmed.linkedin}>
+                          <FaLinkedinIn className="bg-indigo-600 border border-white  rounded-full p-1.5 h-7 w-7 text-white mt-2 transition-all duration-300 translate-y-1 hover:-translate-y-1 opacity-75 hover:opacity-100" />
+                        </a>
+                      )}
+                      {item.sosmed.youtube && (
+                        <a href={item.sosmed.youtube}>
+                          <FaYoutube className="bg-indigo-600 border border-white  rounded-full p-1.5 h-7 w-7 text-white mt-2 transition-all duration-300 translate-y-1 hover:-translate-y-1 opacity-75 hover:opacity-100" />
+                        </a>
+                      )}
+                    </div>
+                    <div className="flex flex-col items-center pb-10 pt-5 px-1.5">
+                      {/* <img className="w-28 h-28 object-cover object-center mb-6 rounded-full shadow-lg" src={item.logo} alt={item.name} /> */}
+                      {/* <img className="w-28 h-28 max-w-full max-h-full object-cover object-center mb-6 rounded-full shadow-lg" src={item.logo} alt={item.name} /> */}
+                      <div className="w-28 h-28 bg-slate-950 overflow-hidden rounded-full shadow-lg">
+                        <img className="object-contain w-full h-full" src={item.logo} alt={item.name} />
+                      </div>
+                      <h5 className="mb-1 text-2xl font-semibold mt-2.5 text-gray-900 dark:text-white">{item.name}</h5>
+                      <span className="text-sm text-gray-500 dark:text-gray-400">{item.category}</span>
+                      <div className="flex flex-col mt-4 md:mt-6 space-y-4">
+                        <a
+                          href={item.cta}
+                          className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        >
+                          Learn More
+                        </a>
+                        {/* <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Message</a> */}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* OH Media Partner */}
+              <div className="mt-10 mb-6 w-full lg:px-96 text-center">
+                <h2 className="text-3xl font-bold uppercase mb-2">OH Media Partner</h2>
+                <hr className="opacity-75 mx-auto" style={{ width: "76%" }} />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-8 text-center w-full px-8">
+                <div></div>
+                {/* card */}
+                {partnerOH.map((item) => (
                   // <div className="relative w-full min-w-[250px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" key={item.name}>
                   <div
                     className="relative h-80 w-full min-w-[250px] max-w-full bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 translate-y-2 hover:-translate-y-2 transition-all duration-300 shadow-lg hover:border-indigo-600 dark:hover:border-indigo-600"

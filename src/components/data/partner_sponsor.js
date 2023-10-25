@@ -103,6 +103,19 @@ export const partner = [
       youtube: null,
     },
   },
+  {
+    name: "Unlimited The Organizer",
+    category: "Event Organizer Partner",
+    logo: "/partner/unlimited-1.png",
+    cta: "https://unlimitedtheorganizer.com",
+    sosmed: {
+      instagram: null,
+      whatsapp: null,
+      facebook: null,
+      linkedin: null,
+      youtube: null,
+    },
+  },
 ];
 
 export const partnerStrategic = [
@@ -169,6 +182,22 @@ export const partnerMedia = [
     category: "Indonesian Media Company",
     logo: "/partner/logoidn.png",
     cta: "https://www.idntimes.com",
+    sosmed: {
+      instagram: null,
+      whatsapp: null,
+      facebook: null,
+      linkedin: null,
+      youtube: null,
+    },
+  },
+];
+
+export const partnerOH = [
+  {
+    name: "AMG Media Group",
+    category: "Digital Advertising Company in Indonesia",
+    logo: "/partner/amg.jpeg",
+    cta: "https://www.amg.co.id",
     sosmed: {
       instagram: null,
       whatsapp: null,
