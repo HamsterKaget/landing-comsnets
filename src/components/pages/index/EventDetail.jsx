@@ -11,7 +11,7 @@ const EventDetail = () => {
           {/* <div className="lg:w-6/12 w-full col-img"></div> */}
           <div className="lg:w-6/12 w-full">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15770.853325660713!2d115.144855!3d-8.812979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244d47a29a8b7%3A0x8e70c2207d497c91!2sRenaissance%20Bali%20Uluwatu%20Resort%20%26%20Spa!5e0!3m2!1sen!2sid!4v1683925795062!5m2!1sen!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3942.7577256385007!2d115.15890502929688!3d-8.808816909790039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2457800d3290d%3A0x16532d09f27a883d!2sFour%20Points%20by%20Sheraton%20Bali%2C%20Ungasan!5e0!3m2!1sid!2sid!4v1699255335310!5m2!1sid!2sid"
               // width="600"
               // height="450"
               // style="border:0;"

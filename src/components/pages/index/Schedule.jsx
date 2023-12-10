@@ -43,29 +43,38 @@ const Schedule = () => {
                 Officials Protocols
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Introduction
+                Opening By MX
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">09:10</td>
+              <td class="px-6 py-2 border">09:15</td>
+              <td class="px-6 py-2 border">0:05</td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white"></th>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                National Anthem "Indonesia Raya"
+              </th>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">09:15</td>
               <td class="px-6 py-2 border">09:20</td>
-              <td class="px-6 py-2 border">0:10</td>
+              <td class="px-6 py-2 border">0:05</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Bali Performance
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Dance
+                Cultural Performance
               </th>
             </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">09:20</td>
-              <td class="px-6 py-2 border">09:35</td>
+              <td class="px-6 py-2 border">09:30</td>
               <td class="px-6 py-2 border">0:15</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Opening Speech
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Opening Speech by Chairman of KADIN
+                Indonesia Emas 2045
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   {/* <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
                     <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
@@ -76,18 +85,18 @@ const Schedule = () => {
                     </h3>
                   </div> */}
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./speaker/kadin.jpeg" alt="budie-arie" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./speaker/person.jpg" alt="Yukki N Hanafi" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">M. Arsjad Rasjid</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Chairman of KADIN</h3>
+                    <h3 className="font-bold text-xl">Mr Made Ariandi</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">General Chairman of KADIN Bali province,</h3>
                   </div>
                 </div>
               </th>
             </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">09:35</td>
-              <td class="px-6 py-2 border">09:45</td>
+              <td class="px-6 py-2 border">09:30</td>
+              <td class="px-6 py-2 border">09:40</td>
               <td class="px-6 py-2 border">0:10</td>
               <td></td>
               <th scope="row" class="border col-span-2 px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -96,8 +105,8 @@ const Schedule = () => {
             </tr>
 
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">09:45</td>
-              <td class="px-6 py-2 border">10:15</td>
+              <td class="px-6 py-2 border">09:40</td>
+              <td class="px-6 py-2 border">09:55</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Keynote Speech
@@ -128,8 +137,8 @@ const Schedule = () => {
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">10:15</td>
-              <td class="px-6 py-2 border">10:45</td>
+              <td class="px-6 py-2 border">09:55</td>
+              <td class="px-6 py-2 border">10:25</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 1
@@ -146,7 +155,7 @@ const Schedule = () => {
                     </h3>
                   </div>
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/Ilham-Habibie.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./speaker/new/Dr-ilham.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
                     <h3 className="font-bold text-xl">Dr. H. Ilham Akbar Habibie,</h3>
@@ -156,31 +165,45 @@ const Schedule = () => {
                 </div>
               </th>
             </tr>
+            <tr class="bg-white dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">10:25</td>
+              <td class="px-6 py-2 border">11:40</td>
+              <td class="px-6 py-2 border">0:15</td>
+              <td class="px-6 py-2 border"></td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Q & A
+              </th>
+            </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border" rowspan="2">
-                10:45
+              <td class="px-6 py-2 border" rowspan="3">
+                10:40
               </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                11:15
+              <td class="px-6 py-2 border" rowspan="3">
+                11:10
               </td>
-              <td class="px-6 py-2 border" rowspan="2">
+              <td class="px-6 py-2 border" rowspan="3">
                 0:30
               </td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="3">
                 Coffee Break
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Demo & Exhibit
+                Demo & Exhibit at Ballroom foyer
               </th>
             </tr>
             <tr className="bg-gray-100 dark:bg-slate-800">
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
+                Networking ( Business Meeting )
+              </th>
+            </tr>
+            <tr className="bg-gray-100 dark:bg-slate-800">
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Coaching Class (Sponsor's Booth)
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">11:15</td>
-              <td class="px-6 py-2 border">11:45</td>
+              <td class="px-6 py-2 border">11:10</td>
+              <td class="px-6 py-2 border">11:40</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Session 2
@@ -189,7 +212,7 @@ const Schedule = () => {
                 Building the Emerging Smart World
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/Brett-King-Wordpress.webp" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./speaker/new/Brett-King.png" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
                     <h3 className="font-bold text-xl">Brett King</h3>
@@ -198,38 +221,27 @@ const Schedule = () => {
                 </div>
               </th>
             </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">11:45</td>
-              <td class="px-6 py-2 border">12:15</td>
-              <td class="px-6 py-2 border">0:30</td>
+            <tr class="bg-white dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">11:40</td>
+              <td class="px-6 py-2 border">11:55</td>
+              <td class="px-6 py-2 border">0:15</td>
+              <td class="px-6 py-2 border"></td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 3
-              </th>
-              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Future of Money in Indonesia
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./speaker/bi.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
-                  </div>
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Bank Indonesia</h3>
-                    {/* <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Indian Institute of Technology (IIT)</h3> */}
-                  </div>
-                </div>
+                Q & A
               </th>
             </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
-                12:15
+                11:55
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                13:30
+                13:25
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                1:15
+                1:45
               </td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
-                Lunch
+                Lunch @ Resto
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Demo & Exhibit
@@ -237,41 +249,62 @@ const Schedule = () => {
             </tr>
             <tr className="bg-gray-100 dark:bg-slate-800">
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
+                Networking ( Business Meeting )
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">13:30</td>
-              <td class="px-6 py-2 border">14:00</td>
+              <td class="px-6 py-2 border">13:25</td>
+              <td class="px-6 py-2 border">13:55</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 4
+                Session 3
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Technological innovations in the financial system in Indonesia
+                {/* Future of Money in Indonesia */}
+                Navigating The Future of Digital Transformation in Indonesia : Business Strategy, and Cybercrime Awareness
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/tulika-pandey.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./speaker/new/Sarwoto Atmosutarno.webp" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Dr. tulika Pandey</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Senior Director of MEITY</h3>
+                    <h3 className="font-bold text-xl">Sarwoto Atmosutarno</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Chairman of Mastel</h3>
                   </div>
                 </div>
               </th>
             </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">14:00</td>
-              <td class="px-6 py-2 border">14:30</td>
-              <td class="px-6 py-2 border">0:30</td>
+            {/* <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">13:55</td>
+              <td class="px-6 py-2 border">14:40</td>
+              <td class="px-6 py-2 border">0:45</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 5
+                Session 4
+              </th>
+              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Financial Paymet System Technological Innovation in Indonesia
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="image w-32 h-32 p-1 rounded-full">
+                    <img src="./image/person.png" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                  </div>
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="font-bold text-xl">Herlina Kalla</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">CEO Arash Digital</h3>
+                  </div>
+                </div>
+              </th>
+            </tr> */}
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">13:55</td>
+              <td class="px-6 py-2 border">14:40</td>
+              <td class="px-6 py-2 border">0:45</td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Session 4 | Q & A
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Cyber Threat Intelligences
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/about-us/huzur-saran.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./speaker/new/huzur.jpg" alt="Prof. Dr. Huzur Saran" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
                     <h3 className="font-bold text-xl">Prof. Dr. Huzur Saran</h3>
@@ -280,29 +313,29 @@ const Schedule = () => {
                 </div>
               </th>
             </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">14:30</td>
-              <td class="px-6 py-2 border">15:00</td>
-              <td class="px-6 py-2 border">0:30</td>
+            {/* <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">14:40</td>
+              <td class="px-6 py-2 border">15:25</td>
+              <td class="px-6 py-2 border">0:45</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 6
+                Session 6 | Q ^ A
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Cyber Attacks - How to Mitigate Risks
               </th>
-            </tr>
+            </tr> */}
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">15:00</td>
-              <td class="px-6 py-2 border">15:30</td>
-              <td class="px-6 py-2 border">0:30</td>
+              <td class="px-6 py-2 border">14:40</td>
+              <td class="px-6 py-2 border">15:25</td>
+              <td class="px-6 py-2 border">0:45</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Session 7
+                Session 5 | Q & A
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Blockchain , CBDC and Data Privacy
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/g_venkatesh.jpg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./speaker/new/Venkatesh.png" alt="Dr. G. Venkatesh" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
                     <h3 className="font-bold text-xl">Dr. G. Venkatesh</h3>
@@ -311,33 +344,10 @@ const Schedule = () => {
                 </div>
               </th>
             </tr>
-            <tr class="bg-gray-100 dark:bg-slate-800 border-b  dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border" rowspan="2">
-                15:30
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                16:00
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                0:30
-              </td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
-                Coffee Break
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Demo & Exhibit
-              </th>
-            </tr>
-            <tr className="bg-gray-100 dark:bg-slate-800">
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
-              </th>
-            </tr>
-
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">16:00</td>
-              <td class="px-6 py-2 border">17:00</td>
-              <td class="px-6 py-2 border">1:00</td>
+              <td class="px-6 py-2 border">15:25</td>
+              <td class="px-6 py-2 border">16:10</td>
+              <td class="px-6 py-2 border">0:45</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Panel Discussion
               </th>
@@ -345,8 +355,55 @@ const Schedule = () => {
                 Navigating The Future of Cyber : Business Strategy, Cybercrime Awareness and Digital Transformation Are Keys
               </th>
             </tr>
-
-            <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
+            <tr class="bg-gray-100 dark:bg-slate-800 border-b  dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border" rowspan="3">
+                16:10
+              </td>
+              <td class="px-6 py-2 border" rowspan="3">
+                16:40
+              </td>
+              <td class="px-6 py-2 border" rowspan="3">
+                0:30
+              </td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="3">
+                Coffee Break
+              </th>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Demo & Exhibit at Ballroom foyer
+              </th>
+            </tr>
+            <tr className="bg-gray-100 dark:bg-slate-800">
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Coaching Class (sponsor's booth)
+              </th>
+            </tr>
+            <tr className="bg-gray-100 dark:bg-slate-800">
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Networking ( Business Meeting ) (Business Meeting) )
+              </th>
+            </tr>
+            <tr class="bg-blue-50 border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border" colSpan={3}>
+                16:40
+              </td>
+              <td></td>
+              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                End Of Discussion
+              </th>
+              {/* <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Cyber Threat Intelligences
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="image w-32 h-32 p-1 rounded-full">
+                    <img src="./speaker/new/huzur.jpg" alt="Prof. Dr. Huzur Saran" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                  </div>
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="font-bold text-xl">Prof. Dr. Huzur Saran</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Indian Institute of Technology (IIT)</h3>
+                  </div>
+                </div>
+              </th> */}
+            </tr>
+            {/* <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
                 17:00
               </td>
@@ -365,21 +422,21 @@ const Schedule = () => {
             </tr>
             <tr className="bg-gray-100 dark:bg-slate-800">
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
+                Networking ( Business Meeting  )
               </th>
-            </tr>
+            </tr> */}
 
-            <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
+            {/* <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">18:00</td>
               <td class="px-6 py-2 border">21:00</td>
               <td class="px-6 py-2 border">3:00</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking Dinner
+                Networking ( Business Meeting ) Dinner
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Round table - Seating arranged
               </th>
-            </tr>
+            </tr> */}
           </tbody>
         );
       case "Day 2":
@@ -464,7 +521,7 @@ const Schedule = () => {
             </tr>
             <tr className="bg-gray-100 dark:bg-slate-800">
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
+                Networking ( Business Meeting )
               </th>
             </tr>
 
@@ -507,7 +564,7 @@ const Schedule = () => {
             </tr>
             <tr className="bg-gray-100 dark:bg-slate-800">
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
+                Networking ( Business Meeting )
               </th>
             </tr>
             {/* <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -640,7 +697,7 @@ const Schedule = () => {
             </tr>
             <tr className="bg-gray-100 dark:bg-slate-800">
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
+                Networking ( Business Meeting )
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
@@ -673,7 +730,7 @@ const Schedule = () => {
             </tr>
             <tr className="bg-gray-100 dark:bg-slate-800">
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
+                Networking ( Business Meeting )
               </th>
             </tr>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
@@ -681,7 +738,7 @@ const Schedule = () => {
               <td class="px-6 py-2 border">21:00</td>
               <td class="px-6 py-2 border">3:00</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking Dinner
+                Networking ( Business Meeting ) Dinner
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Round table - Seating arranged
@@ -694,15 +751,15 @@ const Schedule = () => {
           <tbody>
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">08:00</td>
-              <td class="px-6 py-2 border">09:00</td>
-              <td class="px-6 py-2 border">1:00</td>
+              <td class="px-6 py-2 border">08:30</td>
+              <td class="px-6 py-2 border">0:30</td>
               <th scope="row" colSpan={2} class="border col-span-2 px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Open Registration
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">09:00</td>
-              <td class="px-6 py-2 border">09:10</td>
+              <td class="px-6 py-2 border">08:30</td>
+              <td class="px-6 py-2 border">08:40</td>
               <td class="px-6 py-2 border">0:10</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Official Protocols
@@ -712,46 +769,17 @@ const Schedule = () => {
               </th>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">08:40</td>
               <td class="px-6 py-2 border">09:10</td>
-              <td class="px-6 py-2 border">10:10</td>
-              <td class="px-6 py-2 border">1:00</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Biz Talk 1
-              </th>
-              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Sustainable Smart Cities: A Journey Towards a Greener Future
-                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="flex justify-center items-center text-indigo-600 text-sm font-bold">
-                      <svg className="w-3 h-3 mr-1.5 text-indigo-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
-                      </svg>
-                      Potential Speaker
-                    </h3>
-                  </div>
-                  <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/logo-ikn.png" alt="person" width="500px" className="w-full h-full rounded-full object-cover border border-indigo-600" />
-                  </div>
-                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
-                    <h3 className="font-bold text-xl">Authority of IKN</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Head of Authority</h3>
-                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">of Nusantara Capital City (IKN)</h3>
-                  </div>
-                </div>
-              </th>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">10:10</td>
-              <td class="px-6 py-2 border">10:40</td>
               <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Biz Talk 2
+                Morning BizTalk 1
               </th>
               <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 Human - AI Interaction and The Future Work
                 <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
                   <div className="image w-32 h-32 p-1 rounded-full">
-                    <img src="./image/about-us/archan.jpeg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                    <img src="./speaker/new/archan.png" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
                   </div>
                   <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
                     <h3 className="font-bold text-xl">Prof. Archan Misra</h3>
@@ -760,70 +788,80 @@ const Schedule = () => {
                 </div>
               </th>
             </tr>
-            <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border" rowspan="2">
-                10:40
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                11:10
-              </td>
-              <td class="px-6 py-2 border" rowspan="2">
-                0:30
-              </td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
-                Coffee Break
-              </th>
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">09:10</td>
+              <td class="px-6 py-2 border">09:40</td>
+              <td class="px-6 py-2 border">0:30</td>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Demo & Exhibit
+                Morning BizTalk 2
+              </th>
+              <th scope="row" className="group relative hover:text-indigo-600 dark:hover:text-indigo-600 border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Gen AI Role In The Digital Transformation Era
+                <div className="absolute top-[-100px] border dark:border-slate-200 border-slate-400 -right-12 w-full mx-auto max-w-xs rounded-xl hidden group-hover:flex transition-all duration-500 flex-col space-y-2 justify-center items-center z-10 bg-gray-100 dark:bg-slate-700 p-4">
+                  <div className="image w-32 h-32 p-1 rounded-full">
+                    <img src="./speaker/new/Ady Suryawan.jpeg" alt="person" className="w-full h-full rounded-full object-cover border border-indigo-600" />
+                  </div>
+                  <div className="flex text-center text-slate-800 dark:text-white flex-col justify-start">
+                    <h3 className="font-bold text-xl">Ady Suryawan</h3>
+                    <h3 className="dark:text-slate-100 text-slate-900 opacity-80">Costumer Solutions Consultant at Google Cloud I</h3>
+                  </div>
+                </div>
               </th>
             </tr>
-            <tr className="bg-gray-100 dark:bg-slate-800">
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Networking
+
+            <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td class="px-6 py-2 border">09:40</td>
+              <td class="px-6 py-2 border">10:10</td>
+              <td class="px-6 py-2 border">0:30</td>
+              <th colSpan={2} scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Business Discussion & Networking
               </th>
+              {/* <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Build Green Data Centre to Support Smart City
+              </th> */}
             </tr>
+            {/* 
+
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border">11:10</td>
-              <td class="px-6 py-2 border">11:40</td>
-              <td class="px-6 py-2 border">0:30</td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Biz Talk 3
+              <td class="px-6 py-2 border">11:25</td>
+              <td class="px-6 py-2 border">0:15</td>
+              <th scope="row" rowspan="2" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Business Inspiration & Discussion
               </th>
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Viable Business Models for Sustainability of Smart City
+                Champion Presentation
               </th>
             </tr>
+
             <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
-              <td class="px-6 py-2 border">11:40</td>
-              <td class="px-6 py-2 border">12:10</td>
-              <td class="px-6 py-2 border">0:30</td>
+              <td class="px-6 py-2 border">11:25</td>
+              <td class="px-6 py-2 border">11:45</td>
+              <td class="px-6 py-2 border">0:20</td>
+
               <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Biz Talk 4
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Surviving Green Start Up
+                Champion Awarding
               </th>
             </tr>
+
             <tr class="bg-gray-100 dark:bg-slate-800 border-b dark:border-gray-700 text-gray-900 dark:text-white">
               <td class="px-6 py-2 border" rowspan="2">
-                12:10
+                11:45
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                15:00
+                12:00
               </td>
               <td class="px-6 py-2 border" rowspan="2">
-                2:50
+                0:15
               </td>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
-                AWARDING & CLOSING
-              </th>
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Awarding
-              </th>
-            </tr>
-            <tr className="bg-gray-100 dark:bg-slate-800">
-              <th scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+              <th scope="row" colspan="2" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white" rowspan="2">
                 Closing
+              </th>
+            </tr> */}
+            <tr class="bg-blue-50 border-b dark:bg-gray-900 dark:border-gray-700 text-gray-900 dark:text-white">
+              <td colSpan={3}></td>
+              <th colSpan={2} scope="row" class="border px-6 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                CLOSING
               </th>
             </tr>
           </tbody>
@@ -858,7 +896,7 @@ const Schedule = () => {
             </ul>
           </div>
 
-          <div class="relative overflow-x-auto sm:rounded-lg px-56 mx-auto">
+          <div class="relative overflow-x-auto sm:rounded-lg px-56 mx-auto my-4">
             <table id="scheduleTable" class="w-full text-sm text-center text-gray-500 dark:text-gray-400 border">
               <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>

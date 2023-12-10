@@ -158,7 +158,7 @@ export const eventDetails = [
     title1: "Date & Time",
     desc1: "8th - 10th November 2023, 9 AM - 5 PM GMT +7",
     title2: "Location",
-    desc2: "Renaissance Uluwatu Resort & Spa, Bali, Indonesia",
+    desc2: "Four Points by Sheraton Bali, Ungasan, Indonesia",
     title3: "Visa Requirements",
     // desc3: "To attend Gathering and Workshop with Comsnets in Bali 2023, participants will need to purchase a ticket through our official website. We will have a variety of ticketing options available to suit different needs and budgets. Additionally, due to the ongoing COVID-19 pandemic,",
   },
@@ -1150,6 +1150,68 @@ export const sponsorLogo = [
       //     alt: "Niaga Hoster",
       //     href: "https://niagahoster.com",
       // },
+    ],
+  },
+];
+
+export const material = [
+  {
+    day: 1,
+    data: [
+      {
+        title: "DIGITAL AND GREEN TECHNOLOGY FOR PLANET",
+        name: "Dr.-Ing Ilham Akbar Habibie, MBA.",
+        job: "Head Of Research And Technology Agency, Chamber Of Commerce, Executive Chairman, National ICT Council (WANTIKNAS)",
+        thumbnail: "/file/presentation/thumbnail/digital-tech.png",
+        link: "/file/presentation/20231108 - Digital and Green Technology for Planet ver 5.0.pptx",
+      },
+      {
+        title: "The case for CBDC",
+        name: "G Venkatesh",
+        job: "Professor of Practice, IIT Madras Fellow and Director, Sasken Technologies, Bangalore Founder and CTO, Agami Fintech Solutions",
+        thumbnail: "/file/presentation/thumbnail/cbdc.png",
+        link: "/file/presentation/cbdc.pptx",
+      },
+      {
+        title: "CTI_6G",
+        name: "Huzur Saran",
+        job: "Head Of Research And Technology Agency, Chamber Of Commerce, Executive Chairman, National ICT Council (WANTIKNAS)",
+        thumbnail: "/file/presentation/thumbnail/cti_6g.png",
+        link: "/file/presentation/CTI_6G.pptx",
+      },
+      {
+        title: "indonesia ict landscape",
+        name: "SARWOTO ATMOSUTARNO",
+        job: "Head Of Research And Technology Agency, Chamber Of Commerce, Executive Chairman, National ICT Council (WANTIKNAS)",
+        thumbnail: "/file/presentation/thumbnail/ict.png",
+        link: "/file/presentation/Mastel_Comsnet Bali 08112023.pptx",
+      },
+      {
+        title: "Cybersecurity and Digital Ecosystem in Modern World",
+        name: "Juru Bicara BSSN - Ariandi Putra",
+        job: "Head Of Research And Technology Agency, Chamber Of Commerce, Executive Chairman, National ICT Council (WANTIKNAS)",
+        thumbnail: "/file/presentation/thumbnail/cyber-security.png",
+        link: "/file/presentation/v2 Cybersecurity and Digital Ecosystem in Modern World.pptx",
+      },
+    ],
+  },
+  {
+    day: 2,
+    data: [
+      {
+        title: "Technology Downstream to Leverage Domestic Industrial Competitiveness",
+        name: "Prof. Dr. Eng. Agus Haryono",
+        job: "Head Of Research And Technology Agency, Chamber Of Commerce, Executive Chairman, National ICT Council (WANTIKNAS)",
+        thumbnail: "/file/presentation/thumbnail/brin.png",
+        link: "/file/presentation/day2/PAPARAN COMSNETS 0745.pdf",
+      },
+      {
+        title: "Green Data Center: The Future of Sustainable IT Infrastructures",
+        name: "Ghazanfar Iqbal",
+        job: "Professor of Practice, IIT Madras Fellow and Director, Sasken Technologies, Bangalore Founder and CTO, Agami Fintech Solutions",
+        thumbnail: "/file/presentation/thumbnail/green-data-center.png",
+        link: "/file/presentation/cbdc.pptx",
+      },
     ],
   },
 ];

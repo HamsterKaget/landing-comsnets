@@ -59,8 +59,8 @@ const Navbar = () => {
                 );
               }
             })}
-            <Link to="https://shop.gatheringinbali.com">
-              <Button>Register Now !</Button>
+            <Link to="#">
+              <Button>Docs</Button>
             </Link>
           </ul>
         </div>

@@ -43,10 +43,10 @@ const Countdown = () => {
     // console.log(timeDays, timeHours, timeMinutes, timeSeconds);
   };
 
-  useEffect(() => {
-    const interval = setInterval(countdown, 1000);
-    return () => clearInterval(interval);
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(countdown, 1000);
+  //   return () => clearInterval(interval);
+  // }, []);
   return (
     <>
       <section id="countdown-competition">
@@ -136,7 +136,7 @@ const Countdown = () => {
         </div>
       </section>
 
-      {setInterval(countdown, 1000)}
+      {/* {setInterval(countdown, 1000)} */}
     </>
   );
 };

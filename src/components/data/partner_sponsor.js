@@ -118,6 +118,101 @@ export const partner = [
   },
 ];
 
+export const supporter = [
+  {
+    supporter: [
+      {
+        name: "Kominfo",
+        category: "Kementerian Komunikasi dan Informatika Republik Indonesia",
+        logo: "/partner/kominfo.png",
+        cta: "https://www.kominfo.go.id",
+        sosmed: {
+          instagram: null,
+          whatsapp: null,
+          facebook: null,
+          linkedin: null,
+          youtube: null,
+        },
+      },
+    ],
+    startegic: [
+      {
+        name: "Kominfo",
+        category: "#",
+        logo: "#",
+        cta: "",
+        sosmed: {
+          instagram: null,
+          whatsapp: null,
+          facebook: null,
+          linkedin: null,
+          youtube: null,
+        },
+      },
+    ],
+    media: [
+      {
+        name: "Kominfo",
+        category: "#",
+        logo: "#",
+        cta: "",
+        sosmed: {
+          instagram: null,
+          whatsapp: null,
+          facebook: null,
+          linkedin: null,
+          youtube: null,
+        },
+      },
+    ],
+    ooh: [
+      {
+        name: "Kominfo",
+        category: "#",
+        logo: "#",
+        cta: "",
+        sosmed: {
+          instagram: null,
+          whatsapp: null,
+          facebook: null,
+          linkedin: null,
+          youtube: null,
+        },
+      },
+    ],
+    marketing: [
+      {
+        name: "Kominfo",
+        category: "#",
+        logo: "#",
+        cta: "",
+        sosmed: {
+          instagram: null,
+          whatsapp: null,
+          facebook: null,
+          linkedin: null,
+          youtube: null,
+        },
+      },
+    ],
+    colab: [
+      {
+        name: "Kominfo",
+        category: "#",
+        logo: "#",
+        cta: "",
+        sosmed: {
+          instagram: null,
+          whatsapp: null,
+          facebook: null,
+          linkedin: null,
+          youtube: null,
+        },
+      },
+    ],
+  },
+];
+
 export const partnerStrategic = [
   {
     name: "Kadin Indonesia",

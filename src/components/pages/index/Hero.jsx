@@ -20,7 +20,7 @@ const Hero = () => {
               <h2 className="text-lg my-2 lg:text-lg text-white opacity-75 font-bold uppercase" key={data.title}>
                 8 - 10 November 2023
                 <br />
-                Renaissance Resort Uluwatu, Bali
+                Four Points by Sheraton Bali, Ungasan
               </h2>
               {/* <hr /> */}
               <h1 className="text-xl my-2.5 lg:text-3xl text-slate-50 opacity-90 font-bold uppercase w-fit py-2.5 px-8 mx-auto" key={data.title}>

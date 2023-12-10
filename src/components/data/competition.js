@@ -81,7 +81,7 @@ export const eventDetails = [
     title1: "The Finals",
     desc1: "The finals will be held on November 7, 2023, followed by an exhibition on November 8 - 9, 2023, and culminating in a rewarding ceremony on November 10, 2023.",
     title2: "Finals Location",
-    desc2: "Renaissance Uluwatu Resort & Spa, Bali, Indonesia",
+    desc2: "Four Points by Sheraton Bali, Ungasan",
     title3: "Finalist",
     // desc3: "To attend Gathering and Workshop with Comsnets in Bali 2023, participants will need to purchase a ticket through our official website. We will have a variety of ticketing options available to suit different needs and budgets. Additionally, due to the ongoing COVID-19 pandemic,",
   },
